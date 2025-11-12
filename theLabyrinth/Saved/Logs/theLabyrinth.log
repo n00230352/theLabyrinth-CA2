@@ -9742,3 +9742,64 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2025.11.12-16.15.59:549][344]LogPlayLevel: Display: Destroying online subsystem :Context_59
 [2025.11.12-16.16.00:754][487]LogSlate: Window 'Message Log' being destroyed
 [2025.11.12-16.16.00:762][487]LogSlate: Window 'Message Log' being destroyed
+[2025.11.12-16.16.50:493][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.12-16.16.50:494][600]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/labyrinth' took 0.023
+[2025.11.12-16.16.50:495][600]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/Blueprints/BP_Shell] ([2] browsable assets)...
+[2025.11.12-16.16.50:507][600]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Components/Blueprints/BP_Shell.BP_Shell]
+[2025.11.12-16.16.50:508][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/Blueprints/BP_Shell]
+[2025.11.12-16.16.50:519][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Components/Blueprints/BP_Shell_Auto2
+[2025.11.12-16.16.50:519][600]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/BP_Shell_Auto27441DAA24E52AD47CC6197B91F4C1B41.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/Autosaves/Game/Components/Blueprints/BP_Shell_Auto2.uasset'
+[2025.11.12-16.16.50:520][600]LogFileHelpers: Auto-saving content packages took 0.025
+[2025.11.12-16.17.45:339][557]LogSlate: Window 'Message' being destroyed
+[2025.11.12-16.17.45:353][557]Message dialog closed, result: Yes, title: Message, text: labyrinth already exists. Do you want to replace it?
+[2025.11.12-16.17.45:353][557]LogSlate: Window 'Save Level As' being destroyed
+[2025.11.12-16.17.45:439][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/labyrinth" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.11.12-16.17.45:471][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.11.12-16.17.45:482][557]LogSavePackage: Moving output files for package: /Game/labyrinth
+[2025.11.12-16.17.45:483][557]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/labyrinth9081431A4EC27793F20A19833619CA28.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap'
+[2025.11.12-16.17.45:491][557]LogFileHelpers: All files are already saved.
+[2025.11.12-16.17.45:501][557]LogFileHelpers: Saving map 'labyrinth' took 0.122
+[2025.11.12-16.17.45:501][557]Cmd: MAP LOAD FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.12-16.17.45:547][557]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.12-16.17.45:547][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.12-16.17.45:547][557]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/labyrinth.labyrinth
+[2025.11.12-16.17.45:576][557]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.12-16.17.45:579][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.11.12-16.17.45:581][557]LogStreaming: Display: FlushAsyncLoading(584): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.12-16.17.45:596][557]LogAudio: Display: Audio Device (ID: 1) registered with world 'labyrinth'.
+[2025.11.12-16.17.45:596][557]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.12-16.17.45:597][557]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.11.12-16.17.45:597][557]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.12-16.17.45:597][557]LogWorldPartition: UWorldPartition::Initialize : World = /Game/labyrinth.labyrinth, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.12-16.17.45:733][557]LogWorldPartition: Display: WorldPartition initialize took 136.850 ms (total: 523.748 ms)
+[2025.11.12-16.17.45:760][557]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.12-16.17.45:783][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.12-16.17.45:792][557]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.12-16.17.45:793][557]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.32ms to complete.
+[2025.11.12-16.17.45:858][557]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.12-16.17.45:858][557]LogContentValidation: Enabled validators:
+[2025.11.12-16.17.45:858][557]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.12-16.17.45:858][557]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.12-16.17.45:858][557]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.12-16.17.45:858][557]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.12-16.17.45:858][557]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.12-16.17.45:858][557]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.12-16.17.45:858][557]AssetCheck: /Game/labyrinth Validating asset
+[2025.11.12-16.17.48:183][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.12-16.17.48:189][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.12-16.17.48:226][767]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Components/Blueprints/BP_Shell] ([2] browsable assets)...
+[2025.11.12-16.17.48:226][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/Blueprints/BP_Shell]
+[2025.11.12-16.17.48:226][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Blueprints/BP_Shell" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/Blueprints/BP_Shell.uasset" SILENT=true
+[2025.11.12-16.17.48:237][767]LogSavePackage: Moving output files for package: /Game/Components/Blueprints/BP_Shell
+[2025.11.12-16.17.48:237][767]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/BP_Shell592FA86E431EBEB633F05C81146DEED9.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/Blueprints/BP_Shell.uasset'
+[2025.11.12-16.17.48:248][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.617 ms (total: 848.891 ms)
+[2025.11.12-16.17.48:304][767]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.12-16.17.48:304][767]LogContentValidation: Enabled validators:
+[2025.11.12-16.17.48:304][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.12-16.17.48:304][767]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.12-16.17.48:304][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.12-16.17.48:304][767]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.12-16.17.48:304][767]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.12-16.17.48:304][767]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.12-16.17.48:304][767]AssetCheck: /Game/Components/Blueprints/BP_Shell Validating asset
+[2025.11.12-16.17.48:319][767]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/SourceControl/UncontrolledChangelists.json
