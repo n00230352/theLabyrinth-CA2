@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/playerSaveData.uasset",
+				"C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/myGameInstance.uasset",
+				"C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Health.uasset",
+				"C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/saveGameObject.uasset",
 				"C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Sea_Shell/2k_seashell/StaticMeshes/2k_seashell.uasset",
 				"C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Sea_Shell/2k_seashell/Textures/2k_seashell_texture_0.uasset",
 				"C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Sea_Shell/2k_seashell/Textures/2k_seashell_texture_1.uasset",
