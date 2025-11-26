@@ -2573,3 +2573,358 @@ LogInit: Object subsystem initialized
 [2025.11.26-11.53.54:546][782]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.26-11.53.54:546][782]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.26-11.53.54:546][782]AssetCheck: /Game/labyrinth Validating asset
+[2025.11.26-11.58.14:820][721]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.11.26-11.58.14:820][721]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.11.26-11.58.14:857][721]LogStreaming: Display: FlushAsyncLoading(629): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.26-11.58.16:355][721]LogSlate: Took 0.005875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.26-11.58.16:661][724]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.11.26-11.58.39:253][703]LogStreaming: Display: FlushAsyncLoading(826): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.26-11.58.55:395][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.26-11.58.56:916][729]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.26-11.58.56:923][729]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.26-11.58.56:923][729]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.26-11.58.56:923][729]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 589 us (total: 7.379 ms)
+[2025.11.26-11.58.56:924][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.26-11.58.56:924][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.26-11.58.56:931][729]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.26-11.58.56:933][729]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.435 ms (total: 14.006 ms)
+[2025.11.26-11.58.56:933][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008825s)
+[2025.11.26-11.58.56:933][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.008854s)
+[2025.11.26-11.58.56:950][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.26-11.58.56:951][729]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.26-11.58.56:952][729]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.26-11.58.56:952][729]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.26-11.58.56:952][729]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.26-11.58.56:952][729]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.26-11.58.56:954][729]LogWorldPartition: Display: WorldPartition initialize took 1.646 ms (total: 804.021 ms)
+[2025.11.26-11.58.56:955][729]LogPlayLevel: PIE: World Init took: (0.003023s)
+[2025.11.26-11.58.56:955][729]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.26-11.58.56:955][729]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.26-11.58.56:955][729]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.26-11.58.56:955][729]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.26-11.58.56:955][729]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.26-11.58.56:955][729]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.26-11.58.56:957][729]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.26-11.58.56:980][729]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.26-11.58.56:980][729]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.26-11.58.56:980][729]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.26-11.58.56:980][729]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.26-11.58.56:981][729]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.11.26-11.58.56:981][729]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.11.26-11.58.56:983][729]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.11.26-11.58.56:983][729]LogInit: FAudioDevice initialized with ID 12.
+[2025.11.26-11.58.56:983][729]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.11.26-11.58.56:983][729]LogAudio: Display: Audio Device (ID: 12) registered with world 'labyrinth'.
+[2025.11.26-11.58.56:983][729]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.26-11.58.56:985][729]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.26-11.58.56:988][729]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 0) at 2025.11.26-11.58.56
+[2025.11.26-11.58.56:988][729]LogWorld: Bringing up level for play took: 0.002718
+[2025.11.26-11.58.56:990][729]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.11.26-11.58.56:994][729]PIE: Server logged in
+[2025.11.26-11.58.56:994][729]PIE: Play in editor total start time 0.072 seconds.
+[2025.11.26-11.58.58:855][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.26-11.58.58:856][948]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.26-11.58.58:856][948]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.26-11.58.58:857][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-11.58.58:857][948]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.26-11.58.58:858][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.26-11.58.58:860][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-11.58.58:878][948]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.26-11.58.58:878][948]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.26-11.58.58:878][948]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.11.26-11.58.58:880][948]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.11.26-11.58.58:883][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.26-11.58.58:885][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.11.26-11.58.58:934][950]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.11.26-11.59.30:509][260]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4748.883789
+[2025.11.26-11.59.30:658][278]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.26-11.59.30:660][278]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4749.025879, Update Interval: 358.796967
+[2025.11.26-12.00.23:690][ 79]LogSlate: Took 0.007150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.11.26-12.00.50:259][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.26-12.01.22:918][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.26-12.04.51:335][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.11.26-12.04.51:336][471]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/labyrinth' took 0.024
+[2025.11.26-12.04.51:337][471]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.11.26-12.04.51:337][471]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.11.26-12.04.51:361][471]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2025.11.26-12.04.51:364][471]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.11.26-12.04.51:364][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.11.26-12.04.51:387][471]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto6
+[2025.11.26-12.04.51:387][471]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/BP_ThirdPersonCharacter_Auto6B70F80D144D7E461E7B99E8E831ACA1F.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto6.uasset'
+[2025.11.26-12.04.51:388][471]LogFileHelpers: Auto-saving content packages took 0.051
+[2025.11.26-12.06.05:681][673]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5144.090332
+[2025.11.26-12.06.05:805][688]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.26-12.06.05:805][688]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5144.206055, Update Interval: 306.044495
+[2025.11.26-12.07.24:778][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.11.26-12.08.04:862][935]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.11.26-12.08.04:871][935]LogContentBrowser: Creating deferred item: NewFolder
+[2025.11.26-12.08.04:881][936]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.11.26-12.08.07:051][197]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2025.11.26-12.08.07:053][197]LogContentBrowser: End creating deferred item NewFolder
+[2025.11.26-12.08.39:513][621]LogEditorClassViewer: Warning: Class /Game/M5VFXVOL2/BluePrints/Niagara_BP/Nbuilding_DM_Blueprint.Nbuilding_DM_Blueprint_C has parent /Script/ApexDestruction.DestructibleActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.11.26-12.08.45:456][621]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.11.26-12.08.45:467][621]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.11.26-12.08.45:476][621]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.11.26-12.08.45:503][623]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.11.26-12.09.00:548][646]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_Timer
+[2025.11.26-12.09.00:554][646]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.11.26-12.09.03:860][986]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/UI_Timer.UI_Timer
+[2025.11.26-12.09.03:860][986]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.11.26-12.09.03:867][986]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.11.26-12.09.03:875][986]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.11.26-12.09.04:290][986]LogSlate: Took 0.006503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.11.26-12.12.01:049][ 90]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5499.454102
+[2025.11.26-12.12.01:201][103]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.26-12.12.01:202][103]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5499.596680, Update Interval: 351.113617
+[2025.11.26-12.13.21:454][910]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:454][910]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:456][910]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:512][911]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:517][911]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:575][912]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:628][913]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:633][913]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:692][914]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.21:804][916]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:354][950]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:354][950]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:357][950]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:414][951]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:478][952]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:480][952]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:537][953]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:608][955]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.13.22:662][956]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.11.26-12.14.38:740][668]LogSlate: Window 'Delete widget' being destroyed
+[2025.11.26-12.14.46:501][214]LogSlate: Window 'Delete widget' being destroyed
+[2025.11.26-12.14.57:208][777]LogSlate: Window 'Delete widget' being destroyed
+[2025.11.26-12.17.37:930][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.11.26-12.18.37:171][328]LogEditorClassViewer: Warning: Class /Game/M5VFXVOL2/BluePrints/Niagara_BP/Nbuilding_DM_Blueprint.Nbuilding_DM_Blueprint_C has parent /Script/ApexDestruction.DestructibleActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.11.26-12.18.42:285][884]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5900.666016
+[2025.11.26-12.18.42:970][888]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.26-12.18.42:970][889]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5901.017578, Update Interval: 329.874573
+[2025.11.26-12.20.25:019][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.11.26-12.21.52:537][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.26-12.21.52:539][ 92]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/labyrinth' took 0.020
+[2025.11.26-12.21.52:540][ 92]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.11.26-12.21.52:556][ 92]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.11.26-12.21.52:556][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.11.26-12.21.52:583][ 92]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto7
+[2025.11.26-12.21.52:583][ 92]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/BP_ThirdPersonCharacter_Auto75DAE177A4DAABECA16682EBFD4F8B9B8.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto7.uasset'
+[2025.11.26-12.21.52:586][ 92]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/UI_Timer] ([2] browsable assets)...
+[2025.11.26-12.21.52:589][ 92]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/UI_Timer.UI_Timer]
+[2025.11.26-12.21.52:589][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/UI_Timer]
+[2025.11.26-12.21.52:599][ 92]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Components/UI/UI_Timer_Auto7
+[2025.11.26-12.21.52:599][ 92]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/UI_Timer_Auto7CBD959744248C31A39BD76834800AF74.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/Autosaves/Game/Components/UI/UI_Timer_Auto7.uasset'
+[2025.11.26-12.21.52:599][ 92]LogFileHelpers: Auto-saving content packages took 0.059
+[2025.11.26-12.22.05:859][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.26-12.23.18:898][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.26-12.23.36:050][718]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.11.26-12.23.36:111][721]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.11.26-12.23.39:168][ 68]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/labyrinth.labyrinth:PersistentLevel.labyrinth
+[2025.11.26-12.23.39:168][ 68]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.11.26-12.24.19:224][255]LogEditorClassViewer: Warning: Class /Game/M5VFXVOL2/BluePrints/Niagara_BP/Nbuilding_DM_Blueprint.Nbuilding_DM_Blueprint_C has parent /Script/ApexDestruction.DestructibleActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.11.26-12.24.43:978][166]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6262.316895
+[2025.11.26-12.24.44:104][181]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.26-12.24.44:104][181]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6262.436035, Update Interval: 328.579987
+[2025.11.26-12.24.54:884][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.11.26-12.24.59:736][ 36]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.26-12.24.59:744][ 36]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.26-12.24.59:744][ 36]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.26-12.24.59:745][ 36]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 656 us (total: 8.035 ms)
+[2025.11.26-12.24.59:745][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.26-12.24.59:746][ 36]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.26-12.24.59:752][ 36]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.26-12.24.59:753][ 36]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.171 ms (total: 15.177 ms)
+[2025.11.26-12.24.59:753][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007771s)
+[2025.11.26-12.24.59:753][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.007797s)
+[2025.11.26-12.24.59:771][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.26-12.24.59:774][ 36]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.26-12.24.59:775][ 36]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.26-12.24.59:775][ 36]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.26-12.24.59:775][ 36]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.26-12.24.59:775][ 36]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.26-12.24.59:777][ 36]LogWorldPartition: Display: WorldPartition initialize took 1.565 ms (total: 805.586 ms)
+[2025.11.26-12.24.59:777][ 36]LogPlayLevel: PIE: World Init took: (0.003127s)
+[2025.11.26-12.24.59:777][ 36]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.26-12.24.59:777][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.26-12.24.59:777][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.26-12.24.59:777][ 36]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.26-12.24.59:777][ 36]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.26-12.24.59:777][ 36]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.26-12.24.59:779][ 36]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.26-12.24.59:799][ 36]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.26-12.24.59:799][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.26-12.24.59:799][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.26-12.24.59:799][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.26-12.24.59:800][ 36]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.11.26-12.24.59:800][ 36]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.11.26-12.24.59:802][ 36]LogInit: FAudioDevice initialized with ID 13.
+[2025.11.26-12.24.59:802][ 36]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.11.26-12.24.59:802][ 36]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.11.26-12.24.59:802][ 36]LogAudio: Display: Audio Device (ID: 13) registered with world 'labyrinth'.
+[2025.11.26-12.24.59:802][ 36]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.26-12.24.59:811][ 36]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.26-12.24.59:814][ 36]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 0) at 2025.11.26-12.24.59
+[2025.11.26-12.24.59:815][ 36]LogWorld: Bringing up level for play took: 0.003039
+[2025.11.26-12.24.59:816][ 36]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.11.26-12.24.59:821][ 36]PIE: Server logged in
+[2025.11.26-12.24.59:821][ 36]PIE: Play in editor total start time 0.077 seconds.
+[2025.11.26-12.25.57:994][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.26-12.25.57:994][159]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.26-12.25.57:994][159]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.26-12.25.57:996][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-12.25.57:996][159]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.26-12.25.57:997][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.26-12.25.57:999][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-12.25.58:016][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.26-12.25.58:017][159]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.26-12.25.58:017][159]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.11.26-12.25.58:019][159]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.11.26-12.25.58:025][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.26-12.25.58:079][163]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.11.26-12.26.52:276][165]LogEditorTransaction: Undo Resize Widget
+[2025.11.26-12.26.53:038][184]LogEditorTransaction: Undo Move Widget
+[2025.11.26-12.28.19:048][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.11.26-12.28.22:453][479]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.26-12.28.22:460][479]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.26-12.28.22:460][479]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.26-12.28.22:461][479]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 657 us (total: 8.693 ms)
+[2025.11.26-12.28.22:461][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.26-12.28.22:461][479]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.26-12.28.22:469][479]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.26-12.28.22:470][479]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.361 ms (total: 16.539 ms)
+[2025.11.26-12.28.22:470][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008615s)
+[2025.11.26-12.28.22:470][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.008644s)
+[2025.11.26-12.28.22:493][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.11.26-12.28.22:496][479]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.26-12.28.22:497][479]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.26-12.28.22:497][479]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.26-12.28.22:497][479]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.26-12.28.22:497][479]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.26-12.28.22:499][479]LogWorldPartition: Display: WorldPartition initialize took 1.778 ms (total: 807.364 ms)
+[2025.11.26-12.28.22:499][479]LogPlayLevel: PIE: World Init took: (0.003268s)
+[2025.11.26-12.28.22:500][479]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.26-12.28.22:500][479]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.26-12.28.22:500][479]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.26-12.28.22:500][479]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.26-12.28.22:500][479]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.26-12.28.22:500][479]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.26-12.28.22:502][479]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.26-12.28.22:526][479]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.26-12.28.22:526][479]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.26-12.28.22:526][479]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.26-12.28.22:526][479]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.26-12.28.22:527][479]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.11.26-12.28.22:527][479]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.11.26-12.28.22:529][479]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.11.26-12.28.22:529][479]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.11.26-12.28.22:529][479]LogInit: FAudioDevice initialized with ID 14.
+[2025.11.26-12.28.22:529][479]LogAudio: Display: Audio Device (ID: 14) registered with world 'labyrinth'.
+[2025.11.26-12.28.22:529][479]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.26-12.28.22:532][479]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.26-12.28.22:536][479]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 0) at 2025.11.26-12.28.22
+[2025.11.26-12.28.22:536][479]LogWorld: Bringing up level for play took: 0.002613
+[2025.11.26-12.28.22:538][479]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.11.26-12.28.22:542][479]PIE: Server logged in
+[2025.11.26-12.28.22:543][479]PIE: Play in editor total start time 0.082 seconds.
+[2025.11.26-12.28.34:436][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.26-12.28.34:436][899]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.26-12.28.34:436][899]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.26-12.28.34:437][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-12.28.34:437][899]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.26-12.28.34:439][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.26-12.28.34:442][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-12.28.34:461][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.26-12.28.34:461][899]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.26-12.28.34:462][899]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.11.26-12.28.34:463][899]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.11.26-12.28.34:469][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.11.26-12.28.34:516][901]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.11.26-12.28.44:424][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.11.26-12.28.44:429][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.26-12.28.44:512][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/labyrinth" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.11.26-12.28.44:541][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.26-12.28.44:552][ 53]LogSavePackage: Moving output files for package: /Game/labyrinth
+[2025.11.26-12.28.44:553][ 53]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/labyrinth590A7C9C4B31F2CAD6FFB992EB59B542.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap'
+[2025.11.26-12.28.44:563][ 53]LogFileHelpers: All files are already saved.
+[2025.11.26-12.28.44:564][ 53]LogFileHelpers: Saving map 'labyrinth' took 0.052
+[2025.11.26-12.28.44:564][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.11.26-12.28.44:564][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.11.26-12.28.44:584][ 53]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.11.26-12.28.44:584][ 53]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/BP_ThirdPersonCharacter6F5CF084423B4DDD6E8ACB9304D77FAF.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.11.26-12.28.44:586][ 53]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/UI_Timer] ([2] browsable assets)...
+[2025.11.26-12.28.44:589][ 53]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/UI_Timer.UI_Timer]
+[2025.11.26-12.28.44:589][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/UI_Timer]
+[2025.11.26-12.28.44:589][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/UI/UI_Timer" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/UI_Timer.uasset" SILENT=true
+[2025.11.26-12.28.44:600][ 53]LogSavePackage: Moving output files for package: /Game/Components/UI/UI_Timer
+[2025.11.26-12.28.44:600][ 53]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/UI_Timer61A4C9F5401B1CCB47CF1EA23430D8A0.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/UI_Timer.uasset'
+[2025.11.26-12.28.44:614][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 185.867 ms (total: 515.819 ms)
+[2025.11.26-12.28.44:688][ 53]LogContentValidation: Display: Starting to validate 3 assets
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: Enabled validators:
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.26-12.28.44:689][ 53]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.26-12.28.44:689][ 53]AssetCheck: /Game/labyrinth Validating asset
+[2025.11.26-12.28.44:689][ 53]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.11.26-12.28.44:689][ 53]AssetCheck: /Game/Components/UI/UI_Timer Validating asset
+[2025.11.26-12.28.44:703][ 53]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.26-12.28.50:741][261]LogSlate: Window 'Message' being destroyed
+[2025.11.26-12.28.50:757][261]Message dialog closed, result: Yes, title: Message, text: labyrinth already exists. Do you want to replace it?
+[2025.11.26-12.28.50:757][261]LogSlate: Window 'Save Level As' being destroyed
+[2025.11.26-12.28.50:823][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/labyrinth" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.11.26-12.28.50:852][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.26-12.28.50:864][261]LogSavePackage: Moving output files for package: /Game/labyrinth
+[2025.11.26-12.28.50:864][261]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/labyrinthDBE4F3D744D431C0BF752F88B54302E8.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap'
+[2025.11.26-12.28.50:873][261]LogFileHelpers: All files are already saved.
+[2025.11.26-12.28.50:879][261]LogFileHelpers: Saving map 'labyrinth' took 0.115
+[2025.11.26-12.28.50:879][261]Cmd: MAP LOAD FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.26-12.28.50:913][261]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.11.26-12.28.50:913][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-12.28.50:937][261]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.26-12.28.50:937][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.26-12.28.50:937][261]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/labyrinth.labyrinth
+[2025.11.26-12.28.50:965][261]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.26-12.28.50:970][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.26-12.28.50:973][261]LogStreaming: Display: FlushAsyncLoading(828): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.26-12.28.50:987][261]LogAudio: Display: Audio Device (ID: 1) registered with world 'labyrinth'.
+[2025.11.26-12.28.50:988][261]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.26-12.28.50:989][261]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.11.26-12.28.50:989][261]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.26-12.28.50:989][261]LogWorldPartition: UWorldPartition::Initialize : World = /Game/labyrinth.labyrinth, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.26-12.28.51:081][261]LogWorldPartition: Display: WorldPartition initialize took 91.268 ms (total: 898.633 ms)
+[2025.11.26-12.28.51:108][261]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.26-12.28.51:127][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.26-12.28.51:136][261]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.26-12.28.51:137][261]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.483ms to complete.
+[2025.11.26-12.28.51:229][261]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.26-12.28.51:229][261]LogContentValidation: Enabled validators:
+[2025.11.26-12.28.51:229][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.26-12.28.51:229][261]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.26-12.28.51:229][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.26-12.28.51:229][261]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.26-12.28.51:229][261]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.26-12.28.51:229][261]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.26-12.28.51:229][261]AssetCheck: /Game/labyrinth Validating asset
+[2025.11.26-12.28.51:255][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
