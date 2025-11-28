@@ -2009,3 +2009,1029 @@ Make sure 'BP_SeaDoor_C' has been compiled for  Open Door
 [2025.11.28-13.24.21:233][584]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.28-13.24.21:233][584]AssetCheck: /Game/labyrinth Validating asset
 [2025.11.28-13.24.21:257][584]LogAutomationController: Ignoring very large delta of 3.73 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.28-13.24.27:149][740]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1743.855713
+[2025.11.28-13.24.28:131][743]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-13.24.28:132][743]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1744.522827, Update Interval: 332.317261
+[2025.11.28-13.24.35:186][478]LogStreaming: Display: FlushAsyncLoading(777): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.24.35:208][478]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.11.28-13.25.00:651][478]LogSlate: Window 'Create Niagara System - Select an emitter or system as a base' being destroyed
+[2025.11.28-13.25.01:062][478]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-13.25.01:062][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-13.25.01:069][478]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2025.11.28-13.25.01:093][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.28-13.25.01:106][478]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2025.11.28-13.25.01:108][478]LogAutomationController: Ignoring very large delta of 25.93 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.28-13.25.01:116][479]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2025.11.28-13.30.36:416][710]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2113.112305
+[2025.11.28-13.30.36:558][727]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-13.30.36:558][727]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2113.245605, Update Interval: 333.485535
+[2025.11.28-13.30.48:859][200]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NewNiagaraSystem
+[2025.11.28-13.30.49:223][200]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2025.11.28-13.30.50:276][310]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem
+[2025.11.28-13.30.50:355][310]LogStreaming: Display: FlushAsyncLoading(784): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.30.50:421][310]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.11.28-13.30.50:552][310]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.11.28-13.30.50:775][310]LogSlate: Took 0.006360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.11.28-13.30.50:849][311]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 1.972003 sec (time since issued).
+[2025.11.28-13.30.51:131][326]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.631972 sec (time since issued).
+[2025.11.28-13.30.51:248][333]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.31.26:094][370]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.421074 sec (time since issued).
+[2025.11.28-13.31.26:211][377]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Total job queries 460, among them cache hits 73 (15.87%), DDC hits 338 (73.48%), Duplicates 40 (8.70%)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Tracking 347 distinct input hashes that result in 256 distinct outputs (73.78%)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: RAM used: 3.50 MiB of 3.20 GiB budget. Usage: 0.11%
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Shaders Compiled: 9
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Jobs assigned 9, completed 9 (100%)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Average time worker was idle: 14.22 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.13 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 1.21
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Shader code size: total 169.504 KiB, numShaders 9, average 18.833 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.89 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Average processing rate: 4.77 jobs/sec
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Total thread time: 0.794 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Total thread preprocess time: 6.487 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Percentage time preprocessing: 817.52%
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Effective parallelization: 0.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.026291
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    9 times, average 0.09 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled    9 times, average 0.09 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.31.28:493][507]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.31.29:437][559]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.076028 sec (time since issued).
+[2025.11.28-13.31.29:555][566]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.32.16:911][380]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.28-13.32.32:811][300]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.32.33:174][321]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.434099 sec (time since issued).
+[2025.11.28-13.32.34:811][419]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.32.57:585][747]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.32.57:932][767]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.410384 sec (time since issued).
+[2025.11.28-13.32.59:586][866]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.33.28:569][560]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.33.29:016][586]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.510200 sec (time since issued).
+[2025.11.28-13.33.30:582][680]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Total job queries 466, among them cache hits 76 (16.31%), DDC hits 338 (72.53%), Duplicates 40 (8.58%)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Tracking 350 distinct input hashes that result in 259 distinct outputs (74.00%)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: RAM used: 3.62 MiB of 3.20 GiB budget. Usage: 0.11%
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Average time worker was idle: 24.15 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.13 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Job life time (pending + execution): average 0.56 s, max 1.21
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Shader code size: total 288.688 KiB, numShaders 12, average 24.057 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.93 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Average processing rate: 4.10 jobs/sec
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Total thread time: 1.241 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Total thread preprocess time: 6.491 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Percentage time preprocessing: 522.98%
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Effective parallelization: 0.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.026503
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   12 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   12 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.34.28:508][ 76]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.34.28:509][ 76]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.34.28:509][ 76]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.35.49:059][820]LogStreaming: Display: FlushAsyncLoading(792): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.35.49:854][820]LogNiagaraEditor: Niagara graph NiagaraGraph /Niagara/DynamicInputs/LinearColor/MakeLinearColorFromHSV.MakeLinearColorFromHSV:NiagaraScriptSource_0.NiagaraGraph_0: The default value declaration for the variable 'Module.Alpha' is not consistent between the graph and the metadata.
+  Either change the default mode to 'custom' or check the input pins in the parameter map get node in the graph.
+[2025.11.28-13.35.52:745][955]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.35.53:175][980]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.481404 sec (time since issued).
+[2025.11.28-13.35.53:279][983]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.065917 sec (time since issued).
+[2025.11.28-13.35.54:009][ 24]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.063641 sec (time since issued).
+[2025.11.28-13.35.54:503][ 51]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.063974 sec (time since issued).
+[2025.11.28-13.35.54:752][ 66]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.36.53:598][559]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2490.281250
+[2025.11.28-13.36.53:809][569]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-13.36.53:809][569]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2490.435547, Update Interval: 318.089539
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Total job queries 468, among them cache hits 76 (16.24%), DDC hits 338 (72.22%), Duplicates 40 (8.55%)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Tracking 352 distinct input hashes that result in 261 distinct outputs (74.15%)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: RAM used: 3.67 MiB of 3.20 GiB budget. Usage: 0.11%
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Shaders Compiled: 14
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Jobs assigned 14, completed 14 (100%)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Average time worker was idle: 60.39 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 1.13 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Job life time (pending + execution): average 0.53 s, max 1.21
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Shader code size: total 338.719 KiB, numShaders 14, average 24.193 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.32 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Average processing rate: 4.21 jobs/sec
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Total thread time: 1.421 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Total thread preprocess time: 6.492 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Percentage time preprocessing: 456.72%
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Effective parallelization: 0.43 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.026744
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   14 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   14 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.37.28:513][643]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.39.29:164][784]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.39.29:617][809]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.532953 sec (time since issued).
+[2025.11.28-13.39.31:167][901]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Total job queries 470, among them cache hits 76 (16.17%), DDC hits 338 (71.91%), Duplicates 40 (8.51%)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Tracking 354 distinct input hashes that result in 263 distinct outputs (74.29%)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: RAM used: 3.72 MiB of 3.20 GiB budget. Usage: 0.11%
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Shaders Compiled: 16
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Jobs assigned 16, completed 16 (100%)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Average time worker was idle: 86.34 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Job execution time: average 0.44 s, max 1.13 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Job life time (pending + execution): average 0.50 s, max 1.21
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Shader code size: total 388.11 KiB, numShaders 16, average 24.257 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.73 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Average processing rate: 4.29 jobs/sec
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Total thread time: 1.599 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Total thread preprocess time: 6.493 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Percentage time preprocessing: 406.06%
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Effective parallelization: 0.43 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.026776
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   16 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   16 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.40.28:519][323]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorWidgetsStyle' Style: 'Unable to find Margin 'Menu.Block.IndentedPadding'.'
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorWidgetsStyle' Style: 'Unable to find Color 'MultiboxHookColor'.'
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorWidgetsStyle' Style: 'Unable to find Brush 'Menu.Separator'.'
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorWidgetsStyle' Style: 'Unable to find Margin 'Menu.Block.Padding'.'
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorWidgetsStyle' Style: 'Unable to find Margin 'Menu.Separator.Padding'.'
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Keybinding'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.CheckBox'. Using FCheckBoxStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Button'. Using FButtonStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Keybinding'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.CheckBox'. Using FCheckBoxStyle defaults instead.
+[2025.11.28-13.40.52:792][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Button'. Using FButtonStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.52:793][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Keybinding'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.CheckBox'. Using FCheckBoxStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Button'. Using FButtonStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Keybinding'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:139][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.CheckBox'. Using FCheckBoxStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Button'. Using FButtonStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.55:140][903]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:889][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Keybinding'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.CheckBox'. Using FCheckBoxStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Button'. Using FButtonStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Keybinding'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.CheckBox'. Using FCheckBoxStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Button'. Using FButtonStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:890][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:891][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:891][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:891][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:891][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:891][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.40.59:891][184]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Menu.Label'. Using FTextBlockStyle defaults instead.
+[2025.11.28-13.41.10:994][841]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.28-13.41.29:331][914]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.28-13.42.07:852][214]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.001096 sec (time since issued).
+[2025.11.28-13.42.07:981][220]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.43.07:057][737]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2863.747070
+[2025.11.28-13.43.07:207][746]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-13.43.07:207][746]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2863.881348, Update Interval: 303.411346
+[2025.11.28-13.44.42:298][427]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.509140 sec (time since issued).
+[2025.11.28-13.44.42:475][435]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.45.47:302][ 76]LogSlate: Took 0.011758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.11.28-13.45.47:665][ 97]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.28-13.45.52:468][355]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Total job queries 471, among them cache hits 76 (16.14%), DDC hits 338 (71.76%), Duplicates 40 (8.49%)
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Tracking 355 distinct input hashes that result in 264 distinct outputs (74.37%)
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: RAM used: 3.73 MiB of 3.20 GiB budget. Usage: 0.11%
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Shaders Compiled: 17
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Jobs assigned 17, completed 17 (100%)
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Average time worker was idle: 103.74 s
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Job execution time: average 0.44 s, max 1.13 s
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 1.21
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Shader code size: total 400.888 KiB, numShaders 17, average 23.581 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.11 s
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.46.28:542][478]LogShaderCompilers: Display: Jobs were issued in 17 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Average processing rate: 4.14 jobs/sec
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Total thread time: 1.698 s
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Total thread preprocess time: 6.498 s
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Percentage time preprocessing: 382.56%
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Effective parallelization: 0.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.025834
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   17 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   17 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.46.28:543][478]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.47.54:428][582]LogStreaming: Display: FlushAsyncLoading(1024): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.47.54:580][584]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.47.54:901][602]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.372775 sec (time since issued).
+[2025.11.28-13.47.56:590][691]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.48.42:775][426]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3199.477783
+[2025.11.28-13.48.42:942][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-13.48.42:942][436]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3199.626709, Update Interval: 309.274567
+[2025.11.28-13.49.26:259][963]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Total job queries 472, among them cache hits 76 (16.10%), DDC hits 338 (71.61%), Duplicates 40 (8.47%)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Tracking 356 distinct input hashes that result in 265 distinct outputs (74.44%)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: RAM used: 3.74 MiB of 3.20 GiB budget. Usage: 0.11%
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Shaders Compiled: 18
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Jobs assigned 18, completed 18 (100%)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Average time worker was idle: 110.08 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Job execution time: average 0.42 s, max 1.13 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Job life time (pending + execution): average 0.48 s, max 1.21
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Shader code size: total 414.146 KiB, numShaders 18, average 23.008 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.38 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Average processing rate: 4.11 jobs/sec
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Total thread time: 1.797 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Total thread preprocess time: 6.502 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Percentage time preprocessing: 361.90%
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Effective parallelization: 0.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.025648
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   18 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   18 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.49.28:556][ 99]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.51.13:783][392]LogStreaming: Display: FlushAsyncLoading(1025): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.51.14:208][394]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.51.14:690][419]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.786618 sec (time since issued).
+[2025.11.28-13.51.16:207][509]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.51.34:426][525]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.51.34:758][544]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.392499 sec (time since issued).
+[2025.11.28-13.51.36:426][644]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.52.03:571][619]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.52.03:852][635]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.336071 sec (time since issued).
+[2025.11.28-13.52.08:222][641]LogAutomationController: Ignoring very large delta of 2.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.28-13.52.08:396][643]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.52.12:805][887]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.52.12:820][887]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.129347 sec (time since issued).
+[2025.11.28-13.52.14:807][990]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.52.28:610][282]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Total job queries 475, among them cache hits 76 (16.00%), DDC hits 338 (71.16%), Duplicates 40 (8.42%)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Tracking 359 distinct input hashes that result in 268 distinct outputs (74.65%)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: RAM used: 3.78 MiB of 3.20 GiB budget. Usage: 0.12%
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Average time worker was idle: 105.25 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Job execution time: average 0.40 s, max 1.13 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Job life time (pending + execution): average 0.46 s, max 1.21
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Shader code size: total 456.978 KiB, numShaders 21, average 21.761 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.28 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Average processing rate: 3.98 jobs/sec
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Total thread time: 2.118 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Total thread preprocess time: 6.515 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Percentage time preprocessing: 307.61%
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Effective parallelization: 0.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.025078
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   21 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   21 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.52.28:611][282]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.52.44:164][365]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.52.44:177][365]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.127793 sec (time since issued).
+[2025.11.28-13.52.46:166][467]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.53.06:065][597]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.53.06:081][597]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.145790 sec (time since issued).
+[2025.11.28-13.53.08:067][713]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.53.29:382][980]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.53.29:815][  5]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.481912 sec (time since issued).
+[2025.11.28-13.53.31:388][ 90]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.54.34:840][893]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.001472 sec (time since issued).
+[2025.11.28-13.54.35:368][900]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.54.35:891][931]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3552.580078
+[2025.11.28-13.54.36:058][941]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-13.54.36:058][941]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3552.730469, Update Interval: 322.925507
+[2025.11.28-13.54.44:369][435]LogStreaming: Display: FlushAsyncLoading(1026): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.54.44:518][437]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.54.44:879][444]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.413563 sec (time since issued).
+[2025.11.28-13.54.46:531][537]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.55.26:202][846]LogStreaming: Display: FlushAsyncLoading(1027): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-13.55.26:372][848]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-13.55.26:738][869]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.419429 sec (time since issued).
+[2025.11.28-13.55.28:384][968]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Total job queries 478, among them cache hits 76 (15.90%), DDC hits 338 (70.71%), Duplicates 40 (8.37%)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Tracking 362 distinct input hashes that result in 270 distinct outputs (74.59%)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: RAM used: 3.80 MiB of 3.20 GiB budget. Usage: 0.12%
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Shaders Compiled: 24
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Jobs assigned 24, completed 24 (100%)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Average time worker was idle: 99.57 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 1.13 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Job life time (pending + execution): average 0.44 s, max 1.21
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Shader code size: total 500.45 KiB, numShaders 24, average 20.852 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.31 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Average processing rate: 3.81 jobs/sec
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Total thread time: 2.473 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Total thread preprocess time: 6.529 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Percentage time preprocessing: 264.01%
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Effective parallelization: 0.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.024508
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   24 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   24 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-13.55.28:617][982]LogShaderCompilers: Display: ================================================
+[2025.11.28-13.57.10:677][ 71]LogDerivedDataCache: C:/Users/n00230352/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.28-14.00.42:181][649]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3918.875488
+[2025.11.28-14.00.42:331][658]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-14.00.42:331][658]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3919.009033, Update Interval: 321.041290
+[2025.11.28-14.05.38:297][131]LogNiagaraEditor: "(INPUT) movement power" has been fully renamed as it was only used on this node.
+[2025.11.28-14.06.08:277][903]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.002204 sec (time since issued).
+[2025.11.28-14.06.08:857][910]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-14.06.37:816][641]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4274.527344
+[2025.11.28-14.06.37:982][651]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-14.06.37:982][651]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4274.676270, Update Interval: 307.210907
+[2025.11.28-14.08.37:552][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.28-14.08.37:608][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Components/NewNiagaraSystem] ([1] browsable assets)...
+[2025.11.28-14.08.37:608][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/NewNiagaraSystem]
+[2025.11.28-14.08.37:608][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/NewNiagaraSystem" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/NewNiagaraSystem.uasset" SILENT=true
+[2025.11.28-14.08.37:651][785]LogSavePackage: Moving output files for package: /Game/Components/NewNiagaraSystem
+[2025.11.28-14.08.37:651][785]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/NewNiagaraSystemF56A053D467D19E7513E588E4B0E15F9.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/NewNiagaraSystem.uasset'
+[2025.11.28-14.08.37:657][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.182 ms (total: 311.553 ms)
+[2025.11.28-14.08.37:706][785]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.28-14.08.37:706][785]LogContentValidation: Enabled validators:
+[2025.11.28-14.08.37:706][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.28-14.08.37:706][785]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.28-14.08.37:706][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.28-14.08.37:706][785]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.28-14.08.37:706][785]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.28-14.08.37:706][785]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.28-14.08.37:706][785]AssetCheck: /Game/Components/NewNiagaraSystem Validating asset
+[2025.11.28-14.08.37:728][785]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.28-14.08.37:804][787]124537_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2025.11.28-14.08.38:165][795]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.08.38:165][795]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.08.38:173][795]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.08.38:173][795]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.08.38:179][795]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.08.38:179][795]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.08.38:180][795]LogNiagara: Compiling System NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem took 0.448652 sec (time since issued).
+[2025.11.28-14.08.39:813][892]124537_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.11.28-14.08.56:514][825]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem
+[2025.11.28-14.08.56:514][825]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem
+[2025.11.28-14.08.56:514][825]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem as actor: NiagaraActor /Game/labyrinth.labyrinth:PersistentLevel.NiagaraActor_0
+[2025.11.28-14.08.56:515][825]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem as actor: NiagaraActor /Game/labyrinth.labyrinth:PersistentLevel.NiagaraActor_0
+[2025.11.28-14.08.57:377][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.11.28-14.08.57:381][874]LogEditorActor: Deleted 0 Actors (0.045 secs)
+[2025.11.28-14.08.57:387][874]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem
+[2025.11.28-14.08.57:388][874]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem
+[2025.11.28-14.08.57:390][874]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem as actor: NiagaraActor /Game/labyrinth.labyrinth:PersistentLevel.NiagaraActor_UAID_D0460C83875E7DA602_1772493795
+[2025.11.28-14.08.57:390][874]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Components/NewNiagaraSystem.NewNiagaraSystem as actor: NiagaraActor /Game/labyrinth.labyrinth:PersistentLevel.NiagaraActor_UAID_D0460C83875E7DA602_1772493795
+[2025.11.28-14.09.04:281][282]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.28-14.09.11:964][740]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.28-14.09.11:971][740]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.28-14.09.11:971][740]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.28-14.09.11:972][740]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 772 us (total: 5.057 ms)
+[2025.11.28-14.09.11:972][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.28-14.09.12:001][740]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.09.12:007][740]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.28-14.09.12:009][740]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.349 ms (total: 8.421 ms)
+[2025.11.28-14.09.12:009][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008603s)
+[2025.11.28-14.09.12:009][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.008638s)
+[2025.11.28-14.09.12:032][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.28-14.09.12:040][740]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.28-14.09.12:042][740]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.28-14.09.12:042][740]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.28-14.09.12:042][740]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.28-14.09.12:042][740]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.28-14.09.12:044][740]LogWorldPartition: Display: WorldPartition initialize took 1.767 ms (total: 765.236 ms)
+[2025.11.28-14.09.12:044][740]LogPlayLevel: PIE: World Init took: (0.003534s)
+[2025.11.28-14.09.12:044][740]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.28-14.09.12:044][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.28-14.09.12:044][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.28-14.09.12:044][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.28-14.09.12:044][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.28-14.09.12:044][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.28-14.09.12:047][740]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.28-14.09.12:073][740]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.28-14.09.12:074][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.28-14.09.12:074][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.28-14.09.12:074][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.28-14.09.12:074][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.11.28-14.09.12:074][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.11.28-14.09.12:077][740]LogInit: FAudioDevice initialized with ID 7.
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.11.28-14.09.12:077][740]LogAudio: Display: Audio Device (ID: 7) registered with world 'labyrinth'.
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.09.12:077][740]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.09.12:080][740]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.28-14.09.12:082][740]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 60) at 2025.11.28-14.09.12
+[2025.11.28-14.09.12:083][740]LogWorld: Bringing up level for play took: 0.002839
+[2025.11.28-14.09.12:084][740]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.11.28-14.09.12:088][740]PIE: Server logged in
+[2025.11.28-14.09.12:089][740]PIE: Play in editor total start time 0.119 seconds.
+[2025.11.28-14.09.35:992][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.09.35:992][171]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.09.35:992][171]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-14.09.35:993][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.09.35:993][171]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.28-14.09.35:995][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.28-14.09.35:998][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.09.36:023][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.09.36:023][171]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.28-14.09.36:023][171]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.11.28-14.09.36:025][171]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.11.28-14.09.36:031][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.11.28-14.09.36:092][172]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.11.28-14.09.51:076][ 67]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.28-14.09.51:084][ 67]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.28-14.09.51:084][ 67]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.28-14.09.51:084][ 67]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 747 us (total: 5.805 ms)
+[2025.11.28-14.09.51:085][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.28-14.09.51:121][ 67]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.09.51:130][ 67]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.28-14.09.51:131][ 67]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.283 ms (total: 9.705 ms)
+[2025.11.28-14.09.51:131][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010283s)
+[2025.11.28-14.09.51:131][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.010333s)
+[2025.11.28-14.09.51:153][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.28-14.09.51:155][ 67]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.28-14.09.51:157][ 67]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.28-14.09.51:157][ 67]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.28-14.09.51:157][ 67]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.28-14.09.51:157][ 67]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.28-14.09.51:158][ 67]LogWorldPartition: Display: WorldPartition initialize took 1.720 ms (total: 766.957 ms)
+[2025.11.28-14.09.51:158][ 67]LogPlayLevel: PIE: World Init took: (0.003131s)
+[2025.11.28-14.09.51:158][ 67]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.28-14.09.51:158][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.28-14.09.51:158][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.28-14.09.51:159][ 67]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.28-14.09.51:159][ 67]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.28-14.09.51:159][ 67]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.28-14.09.51:161][ 67]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.28-14.09.51:184][ 67]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.28-14.09.51:184][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.28-14.09.51:184][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.28-14.09.51:184][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.28-14.09.51:184][ 67]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.11.28-14.09.51:184][ 67]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.11.28-14.09.51:187][ 67]LogInit: FAudioDevice initialized with ID 8.
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.11.28-14.09.51:187][ 67]LogAudio: Display: Audio Device (ID: 8) registered with world 'labyrinth'.
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.09.51:187][ 67]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.09.51:190][ 67]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.28-14.09.51:192][ 67]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 60) at 2025.11.28-14.09.51
+[2025.11.28-14.09.51:192][ 67]LogWorld: Bringing up level for play took: 0.002762
+[2025.11.28-14.09.51:194][ 67]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.11.28-14.09.51:198][ 67]PIE: Server logged in
+[2025.11.28-14.09.51:200][ 67]PIE: Play in editor total start time 0.116 seconds.
+[2025.11.28-14.10.05:071][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.10.05:071][898]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.10.05:071][898]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-14.10.05:073][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.10.05:073][898]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.28-14.10.05:074][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.28-14.10.05:078][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.10.05:104][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.10.05:105][898]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.28-14.10.05:105][898]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.11.28-14.10.05:107][898]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.11.28-14.10.05:114][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.11.28-14.10.05:173][899]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: ================================================
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Total job queries 479, among them cache hits 76 (15.87%), DDC hits 338 (70.56%), Duplicates 40 (8.35%)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Tracking 363 distinct input hashes that result in 271 distinct outputs (74.66%)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: RAM used: 3.81 MiB of 3.20 GiB budget. Usage: 0.12%
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Shaders Compiled: 25
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Jobs assigned 25, completed 25 (100%)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Average time worker was idle: 132.50 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 1.13 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Job life time (pending + execution): average 0.44 s, max 1.21
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Shader code size: total 515.341 KiB, numShaders 25, average 20.613 KiB, min 1.912 KiB, max 43.999 KiB
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.62 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Jobs were issued in 25 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Average processing rate: 3.78 jobs/sec
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Total thread time: 2.578 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Total thread preprocess time: 6.534 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Percentage time preprocessing: 253.44%
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Effective parallelization: 0.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.024330
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   25 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   25 times, average 0.10 sec, max 0.17 sec, min 0.03 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: === Material stats ===
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Materials Translated:    148
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: Material Cache Hits: 13 (9%)
+[2025.11.28-14.10.28:891][308]LogShaderCompilers: Display: ================================================
+[2025.11.28-14.10.51:949][669]LogStreaming: Display: FlushAsyncLoading(1028): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-14.10.52:180][678]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean
+[2025.11.28-14.10.52:180][678]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean
+[2025.11.28-14.10.52:180][678]LogStreaming: Display: FlushAsyncLoading(1029): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-14.10.52:188][678]LogActorFactory: Actor Factory spawned SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean as actor: AmbientSound /Game/labyrinth.labyrinth:PersistentLevel.AmbientSound_0
+[2025.11.28-14.10.52:188][678]LogActorFactory: Actor Factory spawned SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean as actor: AmbientSound /Game/labyrinth.labyrinth:PersistentLevel.AmbientSound_0
+[2025.11.28-14.10.54:708][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.28-14.10.54:711][827]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2025.11.28-14.10.54:717][827]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean
+[2025.11.28-14.10.54:717][827]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean
+[2025.11.28-14.10.54:719][827]LogActorFactory: Actor Factory spawned SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean as actor: AmbientSound /Game/labyrinth.labyrinth:PersistentLevel.AmbientSound_UAID_D0460C83875E7DA602_1889822796
+[2025.11.28-14.10.54:720][827]LogActorFactory: Actor Factory spawned SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean as actor: AmbientSound /Game/labyrinth.labyrinth:PersistentLevel.AmbientSound_UAID_D0460C83875E7DA602_1889822796
+[2025.11.28-14.10.59:470][990]LogUdpMessaging: Error: Socket error detected when communicating with 172.16.15.238:49243. Banning communication to that endpoint.
+[2025.11.28-14.10.59:470][990]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.11.28-14.11.01:815][995]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:50581'.
+[2025.11.28-14.11.01:818][995]LogUdpMessaging: Display: Added local interface '172.16.31.216' to multicast group '230.0.0.1:6666'
+[2025.11.28-14.11.01:818][995]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2025.11.28-14.11.01:823][995]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.11.28-14.11.31:363][732]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.28-14.11.31:370][732]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.28-14.11.31:370][732]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.28-14.11.31:371][732]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 750 us (total: 6.555 ms)
+[2025.11.28-14.11.31:371][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.28-14.11.31:371][732]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.11.31:378][732]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.28-14.11.31:379][732]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.305 ms (total: 11.010 ms)
+[2025.11.28-14.11.31:379][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008283s)
+[2025.11.28-14.11.31:379][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.008309s)
+[2025.11.28-14.11.31:403][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.28-14.11.31:406][732]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.28-14.11.31:407][732]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.28-14.11.31:407][732]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.28-14.11.31:407][732]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.28-14.11.31:407][732]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.28-14.11.31:410][732]LogWorldPartition: Display: WorldPartition initialize took 1.737 ms (total: 768.694 ms)
+[2025.11.28-14.11.31:410][732]LogPlayLevel: PIE: World Init took: (0.003155s)
+[2025.11.28-14.11.31:410][732]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.28-14.11.31:410][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.28-14.11.31:410][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.28-14.11.31:410][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.28-14.11.31:410][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.28-14.11.31:410][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.28-14.11.31:412][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.28-14.11.31:435][732]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.28-14.11.31:435][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.28-14.11.31:435][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.28-14.11.31:435][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.28-14.11.31:435][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.11.28-14.11.31:435][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.11.28-14.11.31:438][732]LogInit: FAudioDevice initialized with ID 9.
+[2025.11.28-14.11.31:438][732]LogAudio: Display: Audio Device (ID: 9) registered with world 'labyrinth'.
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.11.31:438][732]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.11.31:441][732]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.28-14.11.31:443][732]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 60) at 2025.11.28-14.11.31
+[2025.11.28-14.11.31:444][732]LogWorld: Bringing up level for play took: 0.002881
+[2025.11.28-14.11.31:446][732]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.11.28-14.11.31:450][732]PIE: Server logged in
+[2025.11.28-14.11.31:451][732]PIE: Play in editor total start time 0.081 seconds.
+[2025.11.28-14.11.38:712][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.11.38:712][165]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.11.38:712][165]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-14.11.38:713][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.11.38:713][165]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.28-14.11.38:715][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.28-14.11.38:718][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.11.38:737][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.11.38:738][165]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.28-14.11.38:738][165]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.11.28-14.11.38:740][165]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.11.28-14.11.38:746][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.11.28-14.11.38:826][166]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.11.28-14.11.43:173][421]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Components/Audios/wavey-ocean.wavey-ocean
+[2025.11.28-14.12.13:784][805]LogStreaming: Display: FlushAsyncLoading(1030): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-14.12.13:785][805]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave WhiteNoise...
+[2025.11.28-14.12.13:786][805]LogAudioDerivedData: Display: WhiteNoise compressed to 23.97% (from 33KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.11.28-14.12.13:786][805]LogAudio: Display: Chunk stats for (SoundWave /Engine/EngineSounds/WhiteNoise.WhiteNoise: Duration=0.39 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8281 bytes, ChunkN=0)
+[2025.11.28-14.12.22:859][162]LogStreaming: Display: FlushAsyncLoading(1031): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-14.12.22:860][162]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave StartPlayInEditor...
+[2025.11.28-14.12.22:870][162]LogAudioDerivedData: Display: StartPlayInEditor compressed to 11.37% (from 396KB to 45KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.11.28-14.12.22:870][162]LogAudio: Display: Chunk stats for (SoundWave /Engine/EditorSounds/GamePreview/StartPlayInEditor.StartPlayInEditor: Duration=2.12 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=46201 bytes, ChunkN=0)
+[2025.11.28-14.12.37:101][998]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.28-14.12.37:108][998]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.28-14.12.37:108][998]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.28-14.12.37:109][998]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 714 us (total: 7.269 ms)
+[2025.11.28-14.12.37:109][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.28-14.12.37:109][998]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.12.37:116][998]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.28-14.12.37:117][998]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.330 ms (total: 12.341 ms)
+[2025.11.28-14.12.37:117][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008465s)
+[2025.11.28-14.12.37:117][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.008492s)
+[2025.11.28-14.12.37:151][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.11.28-14.12.37:155][998]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.28-14.12.37:157][998]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.28-14.12.37:157][998]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.28-14.12.37:157][998]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.28-14.12.37:157][998]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.28-14.12.37:159][998]LogWorldPartition: Display: WorldPartition initialize took 1.798 ms (total: 770.493 ms)
+[2025.11.28-14.12.37:159][998]LogPlayLevel: PIE: World Init took: (0.003313s)
+[2025.11.28-14.12.37:159][998]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.28-14.12.37:159][998]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.28-14.12.37:159][998]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.28-14.12.37:159][998]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.28-14.12.37:159][998]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.28-14.12.37:159][998]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.28-14.12.37:161][998]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.28-14.12.37:184][998]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.28-14.12.37:184][998]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.28-14.12.37:184][998]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.28-14.12.37:184][998]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.28-14.12.37:184][998]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.11.28-14.12.37:184][998]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.11.28-14.12.37:187][998]LogInit: FAudioDevice initialized with ID 10.
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.11.28-14.12.37:187][998]LogAudio: Display: Audio Device (ID: 10) registered with world 'labyrinth'.
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.12.37:187][998]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.12.37:190][998]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.28-14.12.37:193][998]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 60) at 2025.11.28-14.12.37
+[2025.11.28-14.12.37:193][998]LogWorld: Bringing up level for play took: 0.002648
+[2025.11.28-14.12.37:195][998]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.11.28-14.12.37:199][998]PIE: Server logged in
+[2025.11.28-14.12.37:200][998]PIE: Play in editor total start time 0.091 seconds.
+[2025.11.28-14.12.40:832][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.12.40:832][214]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.12.40:832][214]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-14.12.40:833][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.12.40:834][214]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.28-14.12.40:835][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.28-14.12.40:838][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.12.40:862][214]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.28-14.12.40:862][214]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.11.28-14.12.40:862][214]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.11.28-14.12.40:864][214]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.11.28-14.12.40:868][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.12.40:870][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.28-14.12.40:948][215]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.11.28-14.12.42:355][291]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4639.067871
+[2025.11.28-14.12.42:512][301]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.28-14.12.42:512][301]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4639.207520, Update Interval: 303.971680
+[2025.11.28-14.12.47:627][565]LogStreaming: Display: FlushAsyncLoading(1032): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-14.12.47:628][565]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave PossessPlayer...
+[2025.11.28-14.12.47:633][565]LogAudioDerivedData: Display: PossessPlayer compressed to 12.86% (from 235KB to 30KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.11.28-14.12.47:634][565]LogAudio: Display: Chunk stats for (SoundWave /Engine/EditorSounds/GamePreview/PossessPlayer.PossessPlayer: Duration=1.26 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=31055 bytes, ChunkN=0)
+[2025.11.28-14.13.11:459][810]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.28-14.13.11:466][810]LogContentBundle: [labyrinth(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.28-14.13.11:466][810]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.11.28-14.13.11:467][810]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 689 us (total: 7.959 ms)
+[2025.11.28-14.13.11:467][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.28-14.13.11:467][810]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.13.11:473][810]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.28-14.13.11:475][810]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.306 ms (total: 13.648 ms)
+[2025.11.28-14.13.11:475][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008235s)
+[2025.11.28-14.13.11:475][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/labyrinth.labyrinth to /Game/UEDPIE_0_labyrinth.labyrinth (0.008260s)
+[2025.11.28-14.13.11:498][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.11.28-14.13.11:501][810]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.28-14.13.11:503][810]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.28-14.13.11:503][810]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.28-14.13.11:503][810]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.28-14.13.11:503][810]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.28-14.13.11:505][810]LogWorldPartition: Display: WorldPartition initialize took 1.728 ms (total: 772.221 ms)
+[2025.11.28-14.13.11:505][810]LogPlayLevel: PIE: World Init took: (0.003270s)
+[2025.11.28-14.13.11:506][810]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.28-14.13.11:506][810]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.28-14.13.11:506][810]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.28-14.13.11:506][810]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.28-14.13.11:506][810]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.28-14.13.11:506][810]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.28-14.13.11:508][810]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.28-14.13.11:530][810]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.28-14.13.11:530][810]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.28-14.13.11:530][810]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.28-14.13.11:530][810]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.28-14.13.11:531][810]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.11.28-14.13.11:531][810]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.11.28-14.13.11:533][810]LogInit: FAudioDevice initialized with ID 11.
+[2025.11.28-14.13.11:533][810]LogAudio: Display: Audio Device (ID: 11) registered with world 'labyrinth'.
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Sending SubmixBufferListener 'NiagaraSubmixListener' register command...
+[2025.11.28-14.13.11:533][810]LogAudioMixer: Display: Submix buffer listener 'NiagaraSubmixListener' registered with submix 'MasterSubmixDefault'
+[2025.11.28-14.13.11:536][810]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.28-14.13.11:539][810]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 60) at 2025.11.28-14.13.11
+[2025.11.28-14.13.11:539][810]LogWorld: Bringing up level for play took: 0.002788
+[2025.11.28-14.13.11:541][810]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.11.28-14.13.11:545][810]PIE: Server logged in
+[2025.11.28-14.13.11:546][810]PIE: Play in editor total start time 0.08 seconds.
+[2025.11.28-14.13.17:002][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.13.17:002][135]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.11.28-14.13.17:002][135]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-14.13.17:005][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.13.17:005][135]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.11.28-14.13.17:007][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.28-14.13.17:010][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.13.17:032][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.28-14.13.17:032][135]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.11.28-14.13.17:033][135]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.11.28-14.13.17:035][135]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.11.28-14.13.17:040][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.11.28-14.13.17:116][136]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.11.28-14.13.56:661][183]Cmd: DELETE
+[2025.11.28-14.13.56:661][183]Cmd: ACTOR DELETE
+[2025.11.28-14.13.56:664][183]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.28-14.13.56:692][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.28-14.13.56:694][183]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2025.11.28-14.14.00:943][431]Cmd: DELETE
+[2025.11.28-14.14.00:943][431]Cmd: ACTOR DELETE
+[2025.11.28-14.14.00:945][431]LogEditorActor: Deleted Actor: AmbientSound
+[2025.11.28-14.14.00:970][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.11.28-14.14.00:972][431]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2025.11.28-14.14.08:152][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.28-14.14.08:156][684]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.28-14.14.08:218][684]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Components/NewNiagaraSystem] ([1] browsable assets)...
+[2025.11.28-14.14.08:218][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/NewNiagaraSystem]
+[2025.11.28-14.14.08:218][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/NewNiagaraSystem" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/NewNiagaraSystem.uasset" SILENT=true
+[2025.11.28-14.14.08:266][684]LogSavePackage: Moving output files for package: /Game/Components/NewNiagaraSystem
+[2025.11.28-14.14.08:266][684]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/NewNiagaraSystemE1C28F0246F7114D485CBCAEC0236650.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/NewNiagaraSystem.uasset'
+[2025.11.28-14.14.08:287][684]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.436 ms (total: 441.990 ms)
+[2025.11.28-14.14.08:349][684]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.28-14.14.08:349][684]LogContentValidation: Enabled validators:
+[2025.11.28-14.14.08:349][684]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.28-14.14.08:349][684]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.28-14.14.08:349][684]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.28-14.14.08:349][684]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.28-14.14.08:349][684]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.28-14.14.08:349][684]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.28-14.14.08:349][684]AssetCheck: /Game/Components/NewNiagaraSystem Validating asset
+[2025.11.28-14.14.13:680][793]LogSlate: Window 'Message' being destroyed
+[2025.11.28-14.14.13:696][793]Message dialog closed, result: Yes, title: Message, text: labyrinth already exists. Do you want to replace it?
+[2025.11.28-14.14.13:696][793]LogSlate: Window 'Save Level As' being destroyed
+[2025.11.28-14.14.13:772][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/labyrinth" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.11.28-14.14.13:804][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.11.28-14.14.13:816][793]LogSavePackage: Moving output files for package: /Game/labyrinth
+[2025.11.28-14.14.13:816][793]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/labyrinth2084530F4501D8E73720B7AF0D9EE521.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap'
+[2025.11.28-14.14.13:826][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.28-14.14.13:850][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.11.28-14.14.13:873][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.28-14.14.13:897][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.28-14.14.13:898][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.312 ms (total: 514.302 ms)
+[2025.11.28-14.14.13:907][793]LogFileHelpers: Saving map 'labyrinth' took 0.202
+[2025.11.28-14.14.13:907][793]Cmd: MAP LOAD FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.28-14.14.13:952][793]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.11.28-14.14.13:953][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.28-14.14.13:953][793]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/labyrinth.labyrinth
+[2025.11.28-14.14.13:985][793]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.28-14.14.13:988][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.28-14.14.13:990][793]LogStreaming: Display: FlushAsyncLoading(1033): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.28-14.14.14:010][793]LogAudio: Display: Audio Device (ID: 1) registered with world 'labyrinth'.
+[2025.11.28-14.14.14:010][793]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.11.28-14.14.14:012][793]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.11.28-14.14.14:012][793]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.28-14.14.14:012][793]LogWorldPartition: UWorldPartition::Initialize : World = /Game/labyrinth.labyrinth, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.28-14.14.14:168][793]LogWorldPartition: Display: WorldPartition initialize took 155.983 ms (total: 928.204 ms)
+[2025.11.28-14.14.14:194][793]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.28-14.14.14:216][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.28-14.14.14:226][793]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.28-14.14.14:227][793]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.543ms to complete.
+[2025.11.28-14.14.14:272][793]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.28-14.14.14:272][793]LogContentValidation: Enabled validators:
+[2025.11.28-14.14.14:273][793]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.28-14.14.14:273][793]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.28-14.14.14:273][793]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.28-14.14.14:273][793]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.28-14.14.14:273][793]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.28-14.14.14:273][793]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.28-14.14.14:273][793]AssetCheck: /Game/labyrinth Validating asset
+[2025.11.28-14.14.14:298][793]LogAutomationController: Ignoring very large delta of 4.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
