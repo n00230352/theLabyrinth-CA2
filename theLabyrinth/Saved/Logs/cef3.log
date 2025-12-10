@@ -1,2 +1,96 @@
 [1210/175638.190:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [1210/175836.434:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1210/184239.205:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1210/184239.329:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1210/184246.704:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1210/184246.856:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1210/184321.146:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1210/184321.256:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1210/184333.098:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1210/184333.211:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1210/202956.162:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/202956.173:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203001.168:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203001.183:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203006.174:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203006.199:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203011.177:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203011.222:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203016.181:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203016.225:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203021.186:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203021.240:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203026.189:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203026.253:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203029.161:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203031.192:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203031.262:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203034.165:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203036.197:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203036.276:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203039.171:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203041.201:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203041.289:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203044.175:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203046.208:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203046.310:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203049.180:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203051.211:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203051.316:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203108.722:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203108.741:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203113.726:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203113.760:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1210/203602.369:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1210/203602.474:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1210/204225.204:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1210/204225.315:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1210/204225.688:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[1210/204225.699:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[1210/204225.700:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[1210/204225.829:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(381,10-38): warning X4008: floating point division by zero
+C:\fakepath(381,10-38): warning X4008: floating point division by zero
+
