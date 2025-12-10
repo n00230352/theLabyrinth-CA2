@@ -4399,3 +4399,240 @@ Use the PolyGroups or Select Tool to assign PolyGroups.
 [2025.12.10-14.01.33:155][344]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3959.461426
 [2025.12.10-14.01.34:153][347]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.12.10-14.01.34:153][347]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3960.125732, Update Interval: 338.504578
+[2025.12.10-14.02.22:992][824]Cmd: DELETE
+[2025.12.10-14.02.22:993][824]Cmd: ACTOR DELETE
+[2025.12.10-14.02.22:998][824]LogStreaming: Display: FlushAsyncLoading(5796): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.10-14.02.23:009][824]LogEditorActor: Deleted Actor: BP_BullChaos_C
+[2025.12.10-14.02.23:034][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.12.10-14.02.23:037][824]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.12.10-14.02.26:772][895]LogFab: Display: Logging in using persist
+[2025.12.10-14.02.26:774][895]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2025.12.10-14.02.27:179][895]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2025.12.10-14.02.27:181][895]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.12.10-14.02.27:288][895]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2025.12.10-14.02.27:288][895]LogFab: Display: Logging in using exchange code
+[2025.12.10-14.02.27:288][895]LogFab: Display: Reading exchange code from commandline
+[2025.12.10-14.02.27:288][895]LogEOSSDK: Error: LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[2025.12.10-14.02.27:335][896]LogFab: Error: Login failed - error code: EOS_InvalidParameters
+[2025.12.10-14.02.30:029][942]LogEOSSDK: Error: LogEOS: EOS_Auth_CopyUserAuthToken - One or more parameters are null
+[2025.12.10-14.02.30:029][942]LogFab: Error: User auth token is invalid - unable to get auth token
+[2025.12.10-14.04.41:218][238]LogFab: Display: Asset Type = glb
+[2025.12.10-14.04.41:218][238]LogFab: Display: Is Quixel = 0
+[2025.12.10-14.05.11:040][716]LogFab: Error: Failed to download FAB Asset Ox head sculpture, Paris
+[2025.12.10-14.07.55:729][210]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4342.039551
+[2025.12.10-14.07.56:727][213]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.10-14.07.56:727][214]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4342.704590, Update Interval: 326.673798
+[2025.12.10-14.09.24:504][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.12.10-14.09.24:507][476]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/labyrinth' took 0.024
+[2025.12.10-14.14.01:595][769]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4707.901855
+[2025.12.10-14.14.01:813][773]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.10-14.14.01:813][773]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4708.066895, Update Interval: 354.069031
+[2025.12.10-14.20.00:936][880]LogFab: Display: Asset Type = glb
+[2025.12.10-14.20.00:936][880]LogFab: Display: Is Quixel = 0
+[2025.12.10-14.20.01:114][881]LogFab: Error: Failed to download FAB Asset Ox head sculpture, Paris
+[2025.12.10-14.20.51:850][695]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5118.146973
+[2025.12.10-14.20.52:149][700]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.10-14.20.52:149][700]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5118.388184, Update Interval: 344.120605
+[2025.12.10-14.21.15:025][ 75]LogFab: Display: Asset Type = glb
+[2025.12.10-14.21.15:025][ 75]LogFab: Display: Is Quixel = 0
+[2025.12.10-14.21.24:822][210]LogFab: Error: Failed to download FAB Asset Bison
+[2025.12.10-14.23.08:646][833]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18427603573426639076
+[2025.12.10-14.23.08:646][833]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.12.10-14.23.08:653][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.23.15:193][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.12.10-14.23.15:197][946]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/labyrinth' took 0.040
+[2025.12.10-14.27.15:794][419]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5502.080078
+[2025.12.10-14.27.16:029][423]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.10-14.27.16:029][423]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5502.259277, Update Interval: 334.258240
+[2025.12.10-14.27.54:210][ 72]LogFab: Display: Asset Type = glb
+[2025.12.10-14.27.54:210][ 72]LogFab: Display: Is Quixel = 0
+[2025.12.10-14.27.54:823][ 76]LogFab: Error: Failed to download FAB Asset IBEX STATUE
+[2025.12.10-14.29.51:358][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.12.10-14.29.51:364][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.10-14.29.51:471][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.12.10-14.29.51:495][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.12.10-14.29.51:517][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.12.10-14.29.51:530][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.740 ms (total: 1.86 sec)
+[2025.12.10-14.30.06:272][ 84]LogSlate: Window 'Message' being destroyed
+[2025.12.10-14.30.06:287][ 84]Message dialog closed, result: Yes, title: Message, text: labyrinth already exists. Do you want to replace it?
+[2025.12.10-14.30.06:287][ 84]LogSlate: Window 'Save Level As' being destroyed
+[2025.12.10-14.30.06:343][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/labyrinth" FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.12.10-14.30.06:386][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.12.10-14.30.06:400][ 84]LogSavePackage: Moving output files for package: /Game/labyrinth
+[2025.12.10-14.30.06:401][ 84]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/labyrinth84C3307447014E1D79CADE98CD4F41DE.tmp' to '../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap'
+[2025.12.10-14.30.06:415][ 84]LogFileHelpers: All files are already saved.
+[2025.12.10-14.30.06:424][ 84]LogFileHelpers: Saving map 'labyrinth' took 0.128
+[2025.12.10-14.30.06:424][ 84]Cmd: MAP LOAD FILE="../../../../../Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.10-14.30.06:459][ 84]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.06:460][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.06:460][ 84]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/labyrinth.labyrinth
+[2025.12.10-14.30.06:502][ 84]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.10-14.30.06:522][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.12.10-14.30.06:524][ 84]LogStreaming: Display: FlushAsyncLoading(5797): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.10-14.30.06:545][ 84]LogAudio: Display: Audio Device (ID: 1) registered with world 'labyrinth'.
+[2025.12.10-14.30.06:545][ 84]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.12.10-14.30.06:546][ 84]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.10-14.30.06:546][ 84]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.10-14.30.06:546][ 84]LogWorldPartition: UWorldPartition::Initialize : World = /Game/labyrinth.labyrinth, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.10-14.30.06:711][ 84]LogWorldPartition: Display: WorldPartition initialize took 164.715 ms (total: 3.73 sec)
+[2025.12.10-14.30.06:816][ 84]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.10-14.30.06:841][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.12.10-14.30.06:857][ 84]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.10-14.30.06:859][ 84]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.648ms to complete.
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: Enabled validators:
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.10-14.30.06:931][ 84]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.10-14.30.06:931][ 84]AssetCheck: /Game/labyrinth Validating asset
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/0/JL/TCQ2RB8OSDGLFE49ZO8VH1, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/1/1J/GHMSPOVK5RYF04PBBSS157, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/N8/TL9EBBCUUI07J66CHFXNTO, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/QL/RL0P67GMIWA1RK0NJRL5N6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/3/UI/A6YGSZD2QQSCRBOS4S5KGY, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/7/EY/6O8GXT39G1I0A20ZSJ1JV8, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/5P/C6S2CDN9NP414NDY9Y2DY6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/CO/EIFSZBDOAR65BY25EE6N2V, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/GP/0GA9N2G38KH9NSP4LN4IV2, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/D/HL/07RHMDZTU6HCH1QIY0MR9O, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.07:011][ 84]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/E/14/9Z4RZIMUMXSY5DN3Q4RBCU, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/n00230352/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-14.30.10:330][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.12.10-14.30.10:419][184]LogStall: Shutdown...
+[2025.12.10-14.30.10:419][184]LogStall: Shutdown complete.
+[2025.12.10-14.30.10:478][184]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:478][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:537][184]LogSlate: Window 'Fab' being destroyed
+[2025.12.10-14.30.10:544][184]LogSlate: Window 'theLabyrinth - Unreal Editor' being destroyed
+[2025.12.10-14.30.10:820][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.12.10-14.30.10:853][184]Cmd: QUIT_EDITOR
+[2025.12.10-14.30.10:853][185]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.12.10-14.30.10:875][185]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.12.10-14.30.10:876][185]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.12.10-14.30.10:876][185]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.12.10-14.30.10:889][185]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:890][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:890][185]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/labyrinth.labyrinth
+[2025.12.10-14.30.10:928][185]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.12.10-14.30.10:929][185]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.12.10-14.30.10:930][185]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.12.10-14.30.10:951][185]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:951][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:954][185]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:954][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:959][185]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:959][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:964][185]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:964][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:968][185]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:969][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:973][185]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:974][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:980][185]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:980][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:985][185]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:985][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:990][185]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:990][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:994][185]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:994][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.10:998][185]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.10:998][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:002][185]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.11:002][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:005][185]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.11:005][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:009][185]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.11:009][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:012][185]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.11:012][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:018][185]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.11:018][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:022][185]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-14.30.11:022][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-14.30.11:030][185]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.12.10-14.30.11:030][185]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.12.10-14.30.11:033][185]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.12.10-14.30.11:818][185]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.12.10-14.30.11:818][185]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.12.10-14.30.11:818][185]LogAudio: Display: Audio Device unregistered from world 'labyrinth'.
+[2025.12.10-14.30.11:818][185]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.12.10-14.30.11:818][185]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.12.10-14.30.11:821][185]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.12.10-14.30.11:826][185]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.12.10-14.30.11:826][185]LogAudio: Display: Audio Device Manager Shutdown
+[2025.12.10-14.30.11:829][185]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.12.10-14.30.11:832][185]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.12.10-14.30.11:832][185]LogExit: Preparing to exit.
+[2025.12.10-14.30.11:886][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:894][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.11:895][185]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.10-14.30.12:260][185]LogEditorDataStorage: Deinitializing
+[2025.12.10-14.30.12:477][185]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.12.10-14.30.12:498][185]LogExit: Editor shut down
+[2025.12.10-14.30.12:500][185]LogExit: Transaction tracking system shut down
+[2025.12.10-14.30.12:836][185]LogExit: Object subsystem successfully closed.
+[2025.12.10-14.30.12:899][185]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.12.10-14.30.13:092][185]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/listings/798d803b-d650-472b-a028-ffbabc31c7a1.
+[2025.12.10-14.30.13:112][185]LogMemoryProfiler: Shutdown
+[2025.12.10-14.30.13:112][185]LogNetworkingProfiler: Shutdown
+[2025.12.10-14.30.13:112][185]LoadingProfiler: Shutdown
+[2025.12.10-14.30.13:113][185]LogTimingProfiler: Shutdown
+[2025.12.10-14.30.13:116][185]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.12.10-14.30.13:116][185]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.12.10-14.30.13:491][185]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.12.10-14.30.13:492][185]RenderDocPlugin: plugin has been unloaded.
+[2025.12.10-14.30.13:510][185]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.12.10-14.30.13:510][185]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0AA18FC6-4407-C9B8-EF2A-F8B9DC976E0C%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=37b91a7945303ff37377209942ff560a%7Ca462b8afe736479db8871daf05a79c75%7Cff198360-4a5d-447c-8c57-c3e32f47c1ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.12.10-14.30.14:565][185]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.12.10-14.30.14:566][185]LogNFORDenoise: NFORDenoise function shutting down
+[2025.12.10-14.30.14:576][185]LogXGEController: Cleaning working directory: C:/Users/n00230352/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.12.10-14.30.14:581][185]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.12.10-14.30.14:581][185]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.12.10-14.30.14:581][185]LogPakFile: Destroying PakPlatformFile
+[2025.12.10-14.30.15:315][185]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.12.10-14.30.15:420][185]LogExit: Exiting.
+[2025.12.10-14.30.15:450][185]Log file closed, 12/10/25 14:30:15
