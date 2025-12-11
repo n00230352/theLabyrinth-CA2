@@ -4881,3 +4881,783 @@ FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/Ske
 [2025.12.10-23.46.21:968][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.12.10-23.46.22:052][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
 [2025.12.10-23.46.25:412][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.12.10-23.47.14:305][246]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.10-23.47.14:321][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.10-23.47.14:321][246]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2025.12.10-23.47.14:322][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001103s)
+[2025.12.10-23.47.14:322][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001137s)
+[2025.12.10-23.47.14:349][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2025.12.10-23.47.14:352][246]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.12.10-23.47.14:353][246]LogPlayLevel: PIE: World Init took: (0.001847s)
+[2025.12.10-23.47.14:354][246]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.12.10-23.47.14:354][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.10-23.47.14:354][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.10-23.47.14:355][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.10-23.47.14:355][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.10-23.47.14:355][246]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.10-23.47.14:355][246]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.10-23.47.14:355][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.10-23.47.14:355][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.10-23.47.14:355][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.10-23.47.14:355][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.10-23.47.14:355][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.10-23.47.14:358][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.10-23.47.14:376][246]LogAudioMixer: Display: Using Audio Hardware Device PHL 271V8 (NVIDIA High Definition Audio)
+[2025.12.10-23.47.14:376][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.10-23.47.14:376][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.10-23.47.14:376][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.10-23.47.14:376][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.12.10-23.47.14:376][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.12.10-23.47.14:379][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.12.10-23.47.14:379][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.12.10-23.47.14:379][246]LogInit: FAudioDevice initialized with ID 27.
+[2025.12.10-23.47.14:379][246]LogAudio: Display: Audio Device (ID: 27) registered with world 'MainMenu'.
+[2025.12.10-23.47.14:379][246]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.12.10-23.47.14:382][246]LogLoad: Game class is 'BP_Menu_C'
+[2025.12.10-23.47.14:382][246]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.12.10-23.47.14
+[2025.12.10-23.47.14:382][246]LogWorld: Bringing up level for play took: 0.000391
+[2025.12.10-23.47.14:385][246]LogOnline: OSS: Created online subsystem instance for: :Context_97
+[2025.12.10-23.47.14:386][246]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.12.10-23.47.14:386][246]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.12.10-23.47.14:387][246]PIE: Server logged in
+[2025.12.10-23.47.14:388][246]PIE: Play in editor total start time 0.068 seconds.
+[2025.12.10-23.47.43:042][680]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.12.10-23.47.43:042][680]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.12.10-23.47.43:042][680]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/labyrinth"
+[2025.12.10-23.47.43:042][680]LogNet: Browse: /Game/labyrinth
+[2025.12.10-23.47.43:042][680]LogLoad: LoadMap: /Game/labyrinth
+[2025.12.10-23.47.43:042][680]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2025.12.10-23.47.43:043][680]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.47.43:043][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.47.43:096][680]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.10-23.47.43:098][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.12.10-23.47.43:100][680]LogStreaming: Display: FlushAsyncLoading(4555): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.10-23.47.43:131][680]LogAudio: Display: Audio Device (ID: 27) registered with world 'labyrinth'.
+[2025.12.10-23.47.43:131][680]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.12.10-23.47.43:132][680]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.10-23.47.43:132][680]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.10-23.47.43:132][680]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.12.10-23.47.43:133][680]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.10-23.47.43:143][680]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.12.10-23.47.43:287][680]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 143.679 ms (total: 1.41 sec)
+[2025.12.10-23.47.43:302][680]LogWorldPartition: Display: WorldPartition initialize took 169.557 ms (total: 4.79 sec)
+[2025.12.10-23.47.43:302][680]LogPlayLevel: PIE: World Init took: (0.171188s)
+[2025.12.10-23.47.43:303][680]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.10-23.47.43:378][680]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 0) at 2025.12.10-23.47.43
+[2025.12.10-23.47.43:382][680]LogWorld: Bringing up level for play took: 0.077942
+[2025.12.10-23.47.43:382][680]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.12.10-23.47.43:386][680]LogMovieScene: Starting new camera cut: 'CineCameraActor_UAID_10FFE0E09C810FAA02_1444762660'
+[2025.12.10-23.47.43:386][680]LogLoad: Took 0.344504 seconds to LoadMap(/Game/labyrinth)
+[2025.12.10-23.47.43:386][680]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/labyrinth
+[2025.12.10-23.47.45:270][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.10-23.47.45:270][766]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.12.10-23.47.45:270][766]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.12.10-23.47.45:272][766]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.47.45:278][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.47.45:278][766]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.12.10-23.47.45:281][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.10-23.47.45:287][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.47.45:322][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.10-23.47.45:322][766]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.12.10-23.47.45:322][766]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2025.12.10-23.47.45:325][766]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2025.12.10-23.47.45:348][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.12.10-23.47.45:387][767]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2025.12.10-23.47.52:030][518]Cmd: MAP LOAD FILE="../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.10-23.47.52:060][518]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.47.52:060][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.47.52:086][518]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.10-23.47.52:088][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.12.10-23.47.52:092][518]LogStreaming: Display: FlushAsyncLoading(5058): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.10-23.47.52:125][518]LogAudio: Display: Audio Device (ID: 1) registered with world 'labyrinth'.
+[2025.12.10-23.47.52:125][518]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.12.10-23.47.52:127][518]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.10-23.47.52:127][518]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.10-23.47.52:127][518]LogWorldPartition: UWorldPartition::Initialize : World = /Game/labyrinth.labyrinth, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.10-23.47.52:338][518]LogWorldPartition: Display: WorldPartition initialize took 211.019 ms (total: 5.00 sec)
+[2025.12.10-23.47.52:470][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.10-23.47.52:470][518]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (16, 4 bits) vs calculated maxtiles (168, 8 bits)
+[2025.12.10-23.47.52:608][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.12.10-23.47.52:634][518]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.10-23.47.52:636][518]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.118ms to complete.
+[2025.12.10-23.47.52:719][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/0/JL/TCQ2RB8OSDGLFE49ZO8VH1, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:719][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/1/1J/GHMSPOVK5RYF04PBBSS157, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/N8/TL9EBBCUUI07J66CHFXNTO, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/QL/RL0P67GMIWA1RK0NJRL5N6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/3/UI/A6YGSZD2QQSCRBOS4S5KGY, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/7/EY/6O8GXT39G1I0A20ZSJ1JV8, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/5P/C6S2CDN9NP414NDY9Y2DY6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/CO/EIFSZBDOAR65BY25EE6N2V, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][518]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/GP/0GA9N2G38KH9NSP4LN4IV2, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][519]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/D/HL/07RHMDZTU6HCH1QIY0MR9O, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:720][519]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/E/14/9Z4RZIMUMXSY5DN3Q4RBCU, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.47.52:859][519]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (382 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.52)
+[2025.12.10-23.47.52:929][520]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (19 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.95)
+[2025.12.10-23.48.24:464][347]LogSlate: Window 'Save Content' being destroyed
+[2025.12.10-23.48.24:473][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.10-23.48.24:528][347]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/labyrinth/D/HG/WSY5CQNIEWO3JIBKWMZEHT
+[2025.12.10-23.48.24:529][347]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WSY5CQNIEWO3JIBKWMZEHTC97C7BA348DA9A907767F2A1402C48F8.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/__ExternalActors__/labyrinth/D/HG/WSY5CQNIEWO3JIBKWMZEHT.uasset'
+[2025.12.10-23.48.24:541][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.575 ms (total: 824.900 ms)
+[2025.12.10-23.48.24:541][347]Cmd: MAP LOAD FILE="../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.10-23.48.24:582][347]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.48.24:583][347]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.12.10-23.48.24:583][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.48.24:583][347]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/labyrinth.labyrinth
+[2025.12.10-23.48.24:642][347]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.10-23.48.24:665][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.12.10-23.48.24:678][347]LogStreaming: Display: FlushAsyncLoading(5562): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.10-23.48.24:709][347]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.12.10-23.48.24:709][347]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.12.10-23.48.24:720][347]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.10-23.48.24:749][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.10-23.48.24:775][347]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.10-23.48.24:775][347]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.053ms to complete.
+[2025.12.10-23.48.24:822][347]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.10-23.48.24:822][347]LogContentValidation: Enabled validators:
+[2025.12.10-23.48.24:822][347]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.10-23.48.24:822][347]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.10-23.48.24:822][347]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.10-23.48.24:822][347]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.10-23.48.24:822][347]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.10-23.48.24:822][347]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.10-23.48.26:212][506]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.10-23.48.26:228][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.10-23.48.26:229][506]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2025.12.10-23.48.26:230][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001117s)
+[2025.12.10-23.48.26:230][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001150s)
+[2025.12.10-23.48.26:256][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.12.10-23.48.26:261][506]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.12.10-23.48.26:262][506]LogPlayLevel: PIE: World Init took: (0.001571s)
+[2025.12.10-23.48.26:263][506]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.10-23.48.26:263][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.10-23.48.26:263][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.10-23.48.26:263][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.10-23.48.26:263][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.10-23.48.26:263][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.10-23.48.26:265][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.10-23.48.26:282][506]LogAudioMixer: Display: Using Audio Hardware Device PHL 271V8 (NVIDIA High Definition Audio)
+[2025.12.10-23.48.26:282][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.10-23.48.26:282][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.10-23.48.26:282][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.10-23.48.26:283][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.12.10-23.48.26:283][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.12.10-23.48.26:284][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.12.10-23.48.26:284][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.12.10-23.48.26:284][506]LogInit: FAudioDevice initialized with ID 28.
+[2025.12.10-23.48.26:284][506]LogAudio: Display: Audio Device (ID: 28) registered with world 'MainMenu'.
+[2025.12.10-23.48.26:285][506]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.12.10-23.48.26:287][506]LogLoad: Game class is 'BP_Menu_C'
+[2025.12.10-23.48.26:287][506]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.12.10-23.48.26
+[2025.12.10-23.48.26:287][506]LogWorld: Bringing up level for play took: 0.000367
+[2025.12.10-23.48.26:291][506]LogOnline: OSS: Created online subsystem instance for: :Context_98
+[2025.12.10-23.48.26:292][506]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.12.10-23.48.26:292][506]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.12.10-23.48.26:294][506]PIE: Server logged in
+[2025.12.10-23.48.26:295][506]PIE: Play in editor total start time 0.067 seconds.
+[2025.12.10-23.48.28:162][727]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.12.10-23.48.28:162][727]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.12.10-23.48.28:162][727]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/labyrinth"
+[2025.12.10-23.48.28:162][727]LogNet: Browse: /Game/labyrinth
+[2025.12.10-23.48.28:162][727]LogLoad: LoadMap: /Game/labyrinth
+[2025.12.10-23.48.28:162][727]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2025.12.10-23.48.28:163][727]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.48.28:163][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.48.28:225][727]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.10-23.48.28:229][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.12.10-23.48.28:231][727]LogStreaming: Display: FlushAsyncLoading(5563): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.10-23.48.28:262][727]LogAudio: Display: Audio Device (ID: 28) registered with world 'labyrinth'.
+[2025.12.10-23.48.28:262][727]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.12.10-23.48.28:264][727]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.10-23.48.28:264][727]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.10-23.48.28:264][727]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_labyrinth.labyrinth, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.12.10-23.48.28:264][727]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.10-23.48.28:274][727]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' started...
+[2025.12.10-23.48.28:422][727]LogWorldPartition: Display: GenerateStreaming for 'labyrinth' took 148.488 ms (total: 1.55 sec)
+[2025.12.10-23.48.28:438][727]LogWorldPartition: Display: WorldPartition initialize took 174.158 ms (total: 5.17 sec)
+[2025.12.10-23.48.28:438][727]LogPlayLevel: PIE: World Init took: (0.175793s)
+[2025.12.10-23.48.28:438][727]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.10-23.48.28:515][727]LogWorld: Bringing World /Game/UEDPIE_0_labyrinth.labyrinth up for play (max tick rate 0) at 2025.12.10-23.48.28
+[2025.12.10-23.48.28:519][727]LogWorld: Bringing up level for play took: 0.079245
+[2025.12.10-23.48.28:520][727]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.12.10-23.48.28:523][727]LogMovieScene: Starting new camera cut: 'CineCameraActor_UAID_10FFE0E09C810FAA02_1444762660'
+[2025.12.10-23.48.28:524][727]LogLoad: Took 0.361537 seconds to LoadMap(/Game/labyrinth)
+[2025.12.10-23.48.28:524][727]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/labyrinth
+[2025.12.10-23.48.28:556][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/0/JL/TCQ2RB8OSDGLFE49ZO8VH1, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:556][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/1/1J/GHMSPOVK5RYF04PBBSS157, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:556][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/N8/TL9EBBCUUI07J66CHFXNTO, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:556][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/QL/RL0P67GMIWA1RK0NJRL5N6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:557][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/3/UI/A6YGSZD2QQSCRBOS4S5KGY, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:557][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/7/EY/6O8GXT39G1I0A20ZSJ1JV8, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:557][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/5P/C6S2CDN9NP414NDY9Y2DY6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:557][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/CO/EIFSZBDOAR65BY25EE6N2V, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:557][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/GP/0GA9N2G38KH9NSP4LN4IV2, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:557][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/D/HL/07RHMDZTU6HCH1QIY0MR9O, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.28:558][727]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/E/14/9Z4RZIMUMXSY5DN3Q4RBCU, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.10-23.48.34:916][934]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.34:917][934]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.34:917][934]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.34:917][934]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.41:509][126]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.41:510][126]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.41:545][127]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.41:546][127]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.47:141][289]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.47:141][289]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.50:952][400]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.50:952][400]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.50:953][400]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.50:953][400]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.51:056][403]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.51:056][403]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.52:207][438]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.52:208][438]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.52:241][439]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.52:242][439]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.59:117][636]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.59:118][636]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.48.59:118][636]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.48.59:118][636]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.08:264][900]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.08:264][900]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.09:422][933]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.09:422][933]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.09:459][934]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.09:460][934]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.10:890][975]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.10:891][975]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.10:923][976]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.10:924][976]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.10:993][978]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.10:994][978]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.11:895][  4]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.11:896][  4]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.12:631][ 25]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.12:631][ 25]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.14:934][ 91]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.14:935][ 91]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.18:568][193]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.18:569][193]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.18:604][194]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.18:605][194]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.20:449][246]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] entered box
+[2025.12.10-23.49.20:450][246]LogBlueprintUserMessages: [BP_MessageArea1_C_UAID_10FFE0E09C815EAA02_1825436559] widget
+[2025.12.10-23.49.42:339][848]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.42:339][848]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.42:339][848]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.42:340][848]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.42:373][849]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.42:374][849]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.42:375][849]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.42:375][849]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.42:555][854]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.42:556][854]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.45:275][931]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.45:275][931]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.45:768][945]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.45:768][945]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.45:802][946]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.45:802][946]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.45:870][948]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.45:871][948]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.51:795][117]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.51:796][117]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.51:830][118]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.51:830][118]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.53:052][153]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.53:053][153]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.53:054][153]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.53:054][153]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.53:091][154]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.53:091][154]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.56:688][255]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.56:688][255]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.56:756][257]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.56:756][257]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.56:929][262]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.56:929][262]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.59:171][324]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.59:172][324]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.49.59:310][328]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.49.59:310][328]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.50.00:476][360]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.50.00:476][360]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.50.01:056][376]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.50.01:057][376]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.50.01:094][377]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] entered box
+[2025.12.10-23.50.01:094][377]LogBlueprintUserMessages: [BP_MessageArea2_C_UAID_10FFE0E09C8160AA02_1236601912] widget
+[2025.12.10-23.50.22:990][963]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.22:990][963]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.22:990][963]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.22:990][963]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.26:567][ 65]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.26:567][ 65]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.26:601][ 66]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.26:602][ 66]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.27:010][ 77]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.27:010][ 77]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.27:937][103]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.27:938][103]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.27:972][104]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.27:972][104]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.31:683][209]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.31:684][209]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.32:674][237]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.32:675][237]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.32:711][238]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.32:711][238]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.33:034][247]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.33:034][247]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.34:029][275]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.34:029][275]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.50.57:608][934]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.50.57:608][934]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.51.01:089][ 27]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6264.546875
+[2025.12.10-23.51.01:307][ 32]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.10-23.51.01:307][ 32]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6264.723145, Update Interval: 336.902374
+[2025.12.10-23.51.02:356][ 61]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] entered box
+[2025.12.10-23.51.02:356][ 61]LogBlueprintUserMessages: [BP_MessageArea3_C_UAID_10FFE0E09C8160AA02_1503817913] widget
+[2025.12.10-23.51.15:594][425]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.15:595][425]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.15:596][425]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.15:596][425]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.15:632][426]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.15:632][426]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.18:623][507]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.18:624][507]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.18:624][507]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.18:624][507]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.18:624][507]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.18:625][507]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.19:768][538]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.19:770][538]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.19:803][539]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.19:804][539]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.19:881][541]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.19:882][541]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.20:473][557]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.20:474][557]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.20:510][558]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.20:511][558]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.20:511][558]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.20:511][558]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.20:929][569]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.20:929][569]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.21:082][573]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.21:083][573]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.21:799][592]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.21:799][592]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.21:987][597]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.21:987][597]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.22:851][620]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.22:851][620]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.23:517][638]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.23:518][638]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.24:149][655]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.24:150][655]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.24:150][655]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.24:151][655]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.24:151][655]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.24:151][655]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.24:796][672]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.24:796][672]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.25:293][685]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.25:294][685]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.25:294][685]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.25:294][685]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.25:294][685]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.25:294][685]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.27:129][734]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.27:129][734]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.27:168][735]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.27:169][735]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.51.27:169][735]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] entered box
+[2025.12.10-23.51.27:169][735]LogBlueprintUserMessages: [BP_MessageArea4_C_UAID_10FFE0E09C8161AA02_2073069090] widget
+[2025.12.10-23.52.38:426][636]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] entered box
+[2025.12.10-23.52.38:427][636]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] widget
+[2025.12.10-23.52.38:461][637]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] entered box
+[2025.12.10-23.52.38:461][637]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] widget
+[2025.12.10-23.52.38:462][637]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] entered box
+[2025.12.10-23.52.38:463][637]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] widget
+[2025.12.10-23.52.46:039][843]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] entered box
+[2025.12.10-23.52.46:039][843]LogBlueprintUserMessages: [BP_MessageArea5_C_UAID_10FFE0E09C8161AA02_2100568091] widget
+[2025.12.10-23.53.09:883][482]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.09:883][482]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.09:920][483]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.09:921][483]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.09:921][483]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.09:921][483]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.09:921][483]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.09:921][483]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.18:936][725]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.18:936][725]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.19:014][727]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.19:014][727]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.19:994][752]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.19:995][752]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.20:031][753]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.20:032][753]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.20:070][754]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.20:070][754]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.23:576][847]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.23:576][847]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.23:794][853]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.23:795][853]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.25:539][900]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.25:540][900]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.25:573][901]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.25:573][901]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.25:608][902]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] entered box
+[2025.12.10-23.53.25:608][902]LogBlueprintUserMessages: [BP_MessageArea6_C_UAID_10FFE0E09C8161AA02_2133796092] widget
+[2025.12.10-23.53.35:876][184]LogBlueprintUserMessages: [S_C_UAID_10FFE0E09C8166A902_1180736041] sand
+[2025.12.10-23.53.35:876][184]LogBlueprintUserMessages: [S_C_UAID_10FFE0E09C8166A902_1180736041] sink
+[2025.12.10-23.53.35:909][185]LogCharacterMovement: BP_ThirdPersonCharacter_C_UAID_10FFE0E09C810FAA02_1229500658 is stuck and failed to move! Velocity: X=-197.70 Y=-231.75 Z=0.00 Location: X=0.00 Y=0.00 Z=65.68 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:24.316 Actor:LandscapeStreamingProxy_12SS77GKO9VAIUNRI71AMAQ12_126_1_0_0 Component:LandscapeHeightfieldCollisionComponent_6 BoneName:None (0 other events since notify)
+[2025.12.10-23.53.46:431][475]LogBlueprintUserMessages: [S_C_UAID_10FFE0E09C8166A902_1180736041] sand
+[2025.12.10-23.53.46:431][475]LogBlueprintUserMessages: [S_C_UAID_10FFE0E09C8166A902_1180736041] sink
+[2025.12.10-23.53.46:757][484]LogCharacterMovement: BP_ThirdPersonCharacter_C_UAID_10FFE0E09C810FAA02_1229500658 is stuck and failed to move! Velocity: X=-302.59 Y=-207.89 Z=0.00 Location: X=4215.00 Y=-1526.00 Z=90.00 Normal: X=-0.00 Y=0.97 Z=0.25 PenetrationDepth:2.536 Actor:StaticMeshActor_UAID_10FFE0E09C812DA802_1267064839 Component:StaticMeshComponent0 BoneName:None (3 other events since notify)
+[2025.12.10-23.54.56:282][430]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] entered box
+[2025.12.10-23.54.56:284][430]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] widget
+[2025.12.10-23.54.56:284][430]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] entered box
+[2025.12.10-23.54.56:284][430]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] widget
+[2025.12.10-23.55.04:882][675]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] entered box
+[2025.12.10-23.55.04:882][675]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] widget
+[2025.12.10-23.55.04:915][676]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] entered box
+[2025.12.10-23.55.04:915][676]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] widget
+[2025.12.10-23.55.05:922][705]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] entered box
+[2025.12.10-23.55.05:923][705]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] widget
+[2025.12.10-23.55.05:923][705]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] entered box
+[2025.12.10-23.55.05:923][705]LogBlueprintUserMessages: [BP_MessageArea7_C_UAID_10FFE0E09C8162AA02_1096579269] widget
+[2025.12.10-23.55.16:045][995]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.16:045][995]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.16:077][996]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.16:078][996]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.16:452][  7]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.16:453][  7]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.22:403][178]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.22:404][178]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.22:439][179]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.22:440][179]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.25:692][274]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.25:693][274]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.26:914][309]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.26:915][309]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.26:947][310]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.26:947][310]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.29:077][372]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.29:077][372]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.29:077][372]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] entered box
+[2025.12.10-23.55.29:078][372]LogBlueprintUserMessages: [BP_MessageArea8_C_UAID_10FFE0E09C8162AA02_1130911270] widget
+[2025.12.10-23.55.57:962][102]LogBlueprintUserMessages: [BP_MessageArea9_C_UAID_10FFE0E09C8162AA02_1183597271] entered box
+[2025.12.10-23.55.57:963][102]LogBlueprintUserMessages: [BP_MessageArea9_C_UAID_10FFE0E09C8162AA02_1183597271] widget
+[2025.12.10-23.55.57:963][102]LogBlueprintUserMessages: [BP_MessageArea9_C_UAID_10FFE0E09C8162AA02_1183597271] entered box
+[2025.12.10-23.55.57:963][102]LogBlueprintUserMessages: [BP_MessageArea9_C_UAID_10FFE0E09C8162AA02_1183597271] widget
+[2025.12.10-23.55.58:010][103]LogBlueprintUserMessages: [BP_MessageArea9_C_UAID_10FFE0E09C8162AA02_1183597271] entered box
+[2025.12.10-23.55.58:010][103]LogBlueprintUserMessages: [BP_MessageArea9_C_UAID_10FFE0E09C8162AA02_1183597271] widget
+[2025.12.10-23.56.09:488][386]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.10-23.56.51:437][166]Cmd: quit
+[2025.12.10-23.56.51:438][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.10-23.56.51:440][166]LogWorld: BeginTearingDown for /Game/UEDPIE_0_labyrinth
+[2025.12.10-23.56.51:440][166]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.12.10-23.56.51:472][166]LogWorld: UWorld::CleanupWorld for labyrinth, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.56.51:478][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.56.51:478][166]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_labyrinth.labyrinth
+[2025.12.10-23.56.51:482][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.10-23.56.51:489][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.56.51:521][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.10-23.56.51:521][166]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.12.10-23.56.51:521][166]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=4
+[2025.12.10-23.56.51:529][166]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=2
+[2025.12.10-23.56.51:554][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.12.10-23.56.51:701][167]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2025.12.10-23.56.54:887][510]LogSlate: Window 'Message Log' being destroyed
+[2025.12.10-23.56.54:892][510]LogSlate: Window 'Message Log' being destroyed
+[2025.12.10-23.57.11:091][367]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message1.WBP_Message1
+[2025.12.10-23.57.11:091][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_124
+[2025.12.10-23.57.11:099][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_125
+[2025.12.10-23.57.18:828][205]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6642.294434
+[2025.12.10-23.57.18:970][222]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.10-23.57.18:970][222]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6642.428223, Update Interval: 327.702881
+[2025.12.10-23.57.33:481][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.12.10-23.57.36:042][134]LogWorld: UWorld::CleanupWorld for World_125, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.57.36:042][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.57.36:058][134]LogWorld: UWorld::CleanupWorld for World_124, bSessionEnded=true, bCleanupResources=true
+[2025.12.10-23.57.36:058][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.10-23.57.36:141][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.12.10-23.57.38:273][363]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message2.WBP_Message2
+[2025.12.10-23.57.38:274][363]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_127
+[2025.12.10-23.57.38:283][363]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_128
+[2025.12.10-23.58.24:774][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.12.10-23.58.27:325][894]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message3.WBP_Message3
+[2025.12.10-23.58.27:326][894]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_130
+[2025.12.10-23.58.27:333][894]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_131
+[2025.12.10-23.58.52:331][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.12.10-23.58.55:043][298]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message4.WBP_Message4
+[2025.12.10-23.58.55:043][298]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_133
+[2025.12.10-23.58.55:051][298]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_134
+[2025.12.10-23.59.36:519][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.12.10-23.59.46:193][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.12.10-23.59.53:476][296]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message5.WBP_Message5
+[2025.12.10-23.59.53:476][296]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_137
+[2025.12.10-23.59.53:487][296]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_138
+[2025.12.11-00.00.10:347][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.11-00.00.13:876][ 27]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message6.WBP_Message6
+[2025.12.11-00.00.13:876][ 27]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_140
+[2025.12.11-00.00.13:885][ 27]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_141
+[2025.12.11-00.00.32:248][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.12.11-00.00.40:731][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.12.11-00.00.43:791][409]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message7.WBP_Message7
+[2025.12.11-00.00.43:792][409]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_144
+[2025.12.11-00.00.43:801][409]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_145
+[2025.12.11-00.01.04:371][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.12.11-00.01.17:506][918]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message8.WBP_Message8
+[2025.12.11-00.01.17:508][918]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_147
+[2025.12.11-00.01.17:517][918]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_148
+[2025.12.11-00.01.31:588][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.12.11-00.01.34:074][232]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Components/UI/Messages/WBP_Message9.WBP_Message9
+[2025.12.11-00.01.34:074][232]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_150
+[2025.12.11-00.01.34:084][232]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_151
+[2025.12.11-00.02.34:056][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.12.11-00.03.02:511][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.11-00.03.02:576][817]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message9] ([2] browsable assets)...
+[2025.12.11-00.03.02:579][817]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message9.WBP_Message9]
+[2025.12.11-00.03.02:579][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message9]
+[2025.12.11-00.03.02:584][817]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message9
+[2025.12.11-00.03.02:585][817]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message9ADCACCB34889FB96856A35AB7EC2E4FA.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message9.uasset'
+[2025.12.11-00.03.02:594][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.317 ms (total: 907.218 ms)
+[2025.12.11-00.03.02:640][817]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.11-00.03.02:640][817]LogContentValidation: Enabled validators:
+[2025.12.11-00.03.02:640][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.11-00.03.02:640][817]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.11-00.03.02:640][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.11-00.03.02:640][817]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.11-00.03.02:640][817]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.11-00.03.02:640][817]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.11-00.03.02:641][817]AssetCheck: /Game/Components/UI/Messages/WBP_Message9 Validating asset
+[2025.12.11-00.03.06:598][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.12.11-00.03.06:608][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.11-00.03.06:657][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message8] ([2] browsable assets)...
+[2025.12.11-00.03.06:659][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message8.WBP_Message8]
+[2025.12.11-00.03.06:659][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message8]
+[2025.12.11-00.03.06:665][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message8
+[2025.12.11-00.03.06:666][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message8DE5CD8534E11C957DCBCB0AEBA93DB53.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message8.uasset'
+[2025.12.11-00.03.06:667][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message7] ([2] browsable assets)...
+[2025.12.11-00.03.06:671][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message7.WBP_Message7]
+[2025.12.11-00.03.06:671][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message7]
+[2025.12.11-00.03.06:675][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message7
+[2025.12.11-00.03.06:676][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message79F6210A142F69F5F0BAB57A5BA6EA884.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message7.uasset'
+[2025.12.11-00.03.06:677][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message6] ([2] browsable assets)...
+[2025.12.11-00.03.06:679][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message6.WBP_Message6]
+[2025.12.11-00.03.06:679][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message6]
+[2025.12.11-00.03.06:684][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message6
+[2025.12.11-00.03.06:685][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message63230BE1D4EBFA04200C9FC96150D645A.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message6.uasset'
+[2025.12.11-00.03.06:686][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message5] ([2] browsable assets)...
+[2025.12.11-00.03.06:688][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message5.WBP_Message5]
+[2025.12.11-00.03.06:688][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message5]
+[2025.12.11-00.03.06:693][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message5
+[2025.12.11-00.03.06:694][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message5658F13B343D3C7A4C30AF9AAD878293B.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message5.uasset'
+[2025.12.11-00.03.06:695][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message4] ([2] browsable assets)...
+[2025.12.11-00.03.06:698][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message4.WBP_Message4]
+[2025.12.11-00.03.06:698][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message4]
+[2025.12.11-00.03.06:703][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message4
+[2025.12.11-00.03.06:704][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message4AFB2D6B847512734A5C3E0AAACA00C2A.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message4.uasset'
+[2025.12.11-00.03.06:705][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message3] ([2] browsable assets)...
+[2025.12.11-00.03.06:708][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message3.WBP_Message3]
+[2025.12.11-00.03.06:708][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message3]
+[2025.12.11-00.03.06:713][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message3
+[2025.12.11-00.03.06:714][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message3250B76D14AE7C874E25D50851FE1A7CE.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message3.uasset'
+[2025.12.11-00.03.06:716][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message2] ([2] browsable assets)...
+[2025.12.11-00.03.06:719][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message2.WBP_Message2]
+[2025.12.11-00.03.06:719][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message2]
+[2025.12.11-00.03.06:723][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message2
+[2025.12.11-00.03.06:724][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message2C24841CE46EA0AC29BD547BA028186C1.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message2.uasset'
+[2025.12.11-00.03.06:726][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Components/UI/Messages/WBP_Message1] ([2] browsable assets)...
+[2025.12.11-00.03.06:728][110]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Components/UI/Messages/WBP_Message1.WBP_Message1]
+[2025.12.11-00.03.06:728][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/UI/Messages/WBP_Message1]
+[2025.12.11-00.03.06:734][110]LogSavePackage: Moving output files for package: /Game/Components/UI/Messages/WBP_Message1
+[2025.12.11-00.03.06:734][110]LogSavePackage: Moving '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Saved/WBP_Message1FCA14AFD4C4C76916041C09B101487F5.tmp' to '../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Components/UI/Messages/WBP_Message1.uasset'
+[2025.12.11-00.03.06:746][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.373 ms (total: 1.04 sec)
+[2025.12.11-00.03.06:804][110]LogContentValidation: Display: Starting to validate 8 assets
+[2025.12.11-00.03.06:804][110]LogContentValidation: Enabled validators:
+[2025.12.11-00.03.06:804][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.11-00.03.06:804][110]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.11-00.03.06:804][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.11-00.03.06:804][110]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.11-00.03.06:804][110]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.11-00.03.06:804][110]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.11-00.03.06:805][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message8 Validating asset
+[2025.12.11-00.03.06:805][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message7 Validating asset
+[2025.12.11-00.03.06:806][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message6 Validating asset
+[2025.12.11-00.03.06:806][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message5 Validating asset
+[2025.12.11-00.03.06:806][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message4 Validating asset
+[2025.12.11-00.03.06:807][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message3 Validating asset
+[2025.12.11-00.03.06:807][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message2 Validating asset
+[2025.12.11-00.03.06:807][110]AssetCheck: /Game/Components/UI/Messages/WBP_Message1 Validating asset
+[2025.12.11-00.03.44:723][387]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7028.237793
+[2025.12.11-00.03.45:723][390]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.11-00.03.45:723][390]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7028.904297, Update Interval: 322.154602
+[2025.12.11-00.08.30:306][244]LogDerivedDataCache: C:/Users/giorg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.11-00.09.53:755][494]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7397.268555
+[2025.12.11-00.09.54:755][497]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.11-00.09.54:756][497]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7397.936035, Update Interval: 344.549072
+[2025.12.11-00.10.12:256][795]LogSlate: Window 'WBP_Message9' being destroyed
+[2025.12.11-00.10.12:261][795]LogSlate: Window 'WBP_Message9' being destroyed
+[2025.12.11-00.10.12:276][795]LogWorld: UWorld::CleanupWorld for World_128, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:276][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:294][795]LogWorld: UWorld::CleanupWorld for World_127, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:294][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:365][795]LogWorld: UWorld::CleanupWorld for World_131, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:365][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:382][795]LogWorld: UWorld::CleanupWorld for World_130, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:382][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:454][795]LogWorld: UWorld::CleanupWorld for World_134, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:454][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:469][795]LogWorld: UWorld::CleanupWorld for World_133, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:470][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:537][795]LogWorld: UWorld::CleanupWorld for World_138, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:537][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:563][795]LogWorld: UWorld::CleanupWorld for World_137, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:563][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:628][795]LogWorld: UWorld::CleanupWorld for World_141, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:628][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:643][795]LogWorld: UWorld::CleanupWorld for World_140, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:643][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:710][795]LogWorld: UWorld::CleanupWorld for World_145, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:710][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:726][795]LogWorld: UWorld::CleanupWorld for World_144, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:726][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:787][795]LogWorld: UWorld::CleanupWorld for World_148, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:787][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:803][795]LogWorld: UWorld::CleanupWorld for World_147, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:803][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:872][795]LogWorld: UWorld::CleanupWorld for World_151, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:872][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:888][795]LogWorld: UWorld::CleanupWorld for World_150, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.12:888][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.12:979][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.12.11-00.10.27:923][483]Cmd: MAP LOAD FILE="../../../../../../Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.11-00.10.27:954][483]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.12.11-00.10.27:955][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.11-00.10.27:979][483]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.11-00.10.27:983][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.12.11-00.10.27:986][483]LogStreaming: Display: FlushAsyncLoading(6066): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.11-00.10.28:020][483]LogAudio: Display: Audio Device (ID: 1) registered with world 'labyrinth'.
+[2025.12.11-00.10.28:020][483]LogChaosDD: Creating Chaos Debug Draw Scene for world labyrinth
+[2025.12.11-00.10.28:022][483]LogWorldPartition: ULevel::OnLevelLoaded(labyrinth)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.11-00.10.28:022][483]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.11-00.10.28:022][483]LogWorldPartition: UWorldPartition::Initialize : World = /Game/labyrinth.labyrinth, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.11-00.10.28:329][483]LogWorldPartition: Display: WorldPartition initialize took 306.854 ms (total: 5.48 sec)
+[2025.12.11-00.10.28:458][483]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.11-00.10.28:459][483]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (16, 4 bits) vs calculated maxtiles (168, 8 bits)
+[2025.12.11-00.10.28:576][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.11-00.10.28:601][483]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.11-00.10.28:604][483]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.109ms to complete.
+[2025.12.11-00.10.28:687][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/0/JL/TCQ2RB8OSDGLFE49ZO8VH1, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:687][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/1/1J/GHMSPOVK5RYF04PBBSS157, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:687][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/N8/TL9EBBCUUI07J66CHFXNTO, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:687][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/2/QL/RL0P67GMIWA1RK0NJRL5N6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:687][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/3/UI/A6YGSZD2QQSCRBOS4S5KGY, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:687][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/7/EY/6O8GXT39G1I0A20ZSJ1JV8, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:688][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/5P/C6S2CDN9NP414NDY9Y2DY6, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:688][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/CO/EIFSZBDOAR65BY25EE6N2V, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:688][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/9/GP/0GA9N2G38KH9NSP4LN4IV2, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:688][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/D/HL/07RHMDZTU6HCH1QIY0MR9O, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.28:688][483]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/labyrinth/E/14/9Z4RZIMUMXSY5DN3Q4RBCU, a dependent package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/giorg/OneDrive/Desktop/theLabyrinth-CA2/theLabyrinth/Content/Fab/Skeleton/Skeleton_with_armature_only/SkeletalMeshes/Skeleton_with_armature_only'. Perhaps it has been deleted or was not synced?
+
+[2025.12.11-00.10.29:722][551]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (119 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.27)
+[2025.12.11-00.10.30:101][564]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (132 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.80)
+[2025.12.11-00.10.30:260][566]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (21 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (1.56)
+[2025.12.11-00.10.31:281][587]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2025.12.11-00.10.36:062][717]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (109 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.37)
+[2025.12.11-00.10.36:145][719]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (24 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (1.11)
+[2025.12.11-00.10.38:165][775]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (21 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.60)
+[2025.12.11-00.10.38:205][776]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (16 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.74)
+[2025.12.11-00.10.38:243][777]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (42 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (0.94)
+[2025.12.11-00.10.38:284][778]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (58 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (1.16)
+[2025.12.11-00.10.38:343][780]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (42 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (1.36)
+[2025.12.11-00.10.38:343][780]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (106 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00), Global Resolution Lod Bias (1.52)
+[2025.12.11-00.16.18:656][223]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7782.181641
+[2025.12.11-00.16.19:657][226]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.11-00.16.19:657][226]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7782.848633, Update Interval: 325.772888
